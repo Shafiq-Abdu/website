@@ -330,6 +330,26 @@ author_profile: true
     🎧 Media
   </button>
 
+  <button class="neuro-tab" data-tab="papers">
+    📄 Papers
+  </button>
+
+  <button class="neuro-tab" data-tab="databases">
+    🗄 Databases
+  </button>
+
+  <button class="neuro-tab" data-tab="labs">
+    🔬 Labs
+  </button>
+
+  <button class="neuro-tab" data-tab="community">
+    🌐 Community
+  </button>
+
+  <button class="neuro-tab" data-tab="more-resources">
+    🔗 More
+  </button>
+
 </div>
 
 
@@ -1023,6 +1043,316 @@ author_profile: true
           <p>Playlist to get motivation and discipline</p>
         </div>
       </a>
+    </div>
+  </div>
+
+
+  <!-- =====================================================
+       PAPERS
+  ====================================================== -->
+
+  <div class="neuro-panel" id="papers">
+    <h3>Classic &amp; Review Papers</h3>
+    <div class="resource-grid">
+
+      <a class="resource-card"
+         href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1392413/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">⚡</span>
+        <div>
+          <strong>Hodgkin &amp; Huxley (1952)</strong>
+          <p>A quantitative description of membrane current and its application to conduction and excitation in nerve.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="http://www.minicomplexity.org/pubs/1943-mcculloch-pitts-bmb.pdf"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🧠</span>
+        <div>
+          <strong>McCulloch &amp; Pitts (1943)</strong>
+          <p>A logical calculus of the ideas immanent in nervous activity.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.335.3398"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">📐</span>
+        <div>
+          <strong>Rosenblatt (1958)</strong>
+          <p>The perceptron: a probabilistic model for information storage and organization in the brain.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2638500/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🖥️</span>
+        <div>
+          <strong>Simulation of Networks of Spiking Neurons</strong>
+          <p>Brette et al. review of tools and strategies for simulating spiking neural networks.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog0901_7"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🤖</span>
+        <div>
+          <strong>Boltzmann Machines</strong>
+          <p>Ackley, Hinton &amp; Sejnowski on a learning algorithm for Boltzmann machines.</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+
+  <!-- =====================================================
+       DATABASES
+  ====================================================== -->
+
+  <div class="neuro-panel" id="databases">
+    <h3>Models, Neurons &amp; Neuroscience Databases</h3>
+    <div class="resource-grid">
+
+      <a class="resource-card"
+         href="https://modeldb.science/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🧮</span>
+        <div>
+          <strong>ModelDB</strong>
+          <p>Database of computational neuroscience models.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://opensourcebrain.org/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🧠</span>
+        <div>
+          <strong>Open Source Brain</strong>
+          <p>Open models, projects, tutorials and computational neuroscience resources.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://neuromorpho.org/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🌳</span>
+        <div>
+          <strong>NeuroMorpho.Org</strong>
+          <p>Digitally reconstructed neuronal morphologies.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://www.ebi.ac.uk/biomodels/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🧬</span>
+        <div>
+          <strong>BioModels</strong>
+          <p>Repository of computational models of biological systems.</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+
+  <!-- =====================================================
+       LABS & RESEARCH GROUPS
+  ====================================================== -->
+
+  <div class="neuro-panel" id="labs">
+    <h3>Computational Neuroscience Labs &amp; Research Groups</h3>
+    <div class="resource-grid">
+
+      <a class="resource-card"
+         href="https://groups.oist.jp/ncu/research"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🇯🇵</span>
+        <div>
+          <strong>OIST Neural Computation Unit</strong>
+          <p>Neural computation and computational neuroscience research.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://www.ncbs.res.in/faculty/bhalla-research"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🇮🇳</span>
+        <div>
+          <strong>Bhalla Lab, NCBS</strong>
+          <p>Computational and experimental approaches to neural signaling and circuits.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://www.gatsby.ucl.ac.uk/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🇬🇧</span>
+        <div>
+          <strong>Gatsby Computational Neuroscience Unit</strong>
+          <p>Theoretical neuroscience, machine learning and neural computation.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://sccn.ucsd.edu/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🌊</span>
+        <div>
+          <strong>Swartz Center for Computational Neuroscience</strong>
+          <p>Computational methods for neural and electrophysiological data.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://compneuroweb.com/labs.html"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🗺️</span>
+        <div>
+          <strong>Computational Neuroscience Labs Directory</strong>
+          <p>A broader directory of computational neuroscience labs, centers and researchers.</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+
+  <!-- =====================================================
+       COMMUNITY
+  ====================================================== -->
+
+  <div class="neuro-panel" id="community">
+    <h3>Organizations, Mailing Lists, Blogs &amp; News</h3>
+    <div class="resource-grid">
+
+      <a class="resource-card"
+         href="https://www.cnsorg.org/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🌐</span>
+        <div>
+          <strong>Organization for Computational Neurosciences</strong>
+          <p>OCNS community and Computational Neuroscience Meeting.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://www.incf.org/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🧠</span>
+        <div>
+          <strong>INCF</strong>
+          <p>International Neuroinformatics Coordinating Facility.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://groups.google.com/g/cosyne-announce"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">📬</span>
+        <div>
+          <strong>COSYNE Announcements</strong>
+          <p>Community announcements related to computational and systems neuroscience.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://xcorr.net/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">✍️</span>
+        <div>
+          <strong>xcorr</strong>
+          <p>Writing and discussion on computational neuroscience.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://neurosciencenews.com/neuroscience-terms/computational-neuroscience/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">📰</span>
+        <div>
+          <strong>Neuroscience News</strong>
+          <p>News and articles related to computational neuroscience.</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+
+  <!-- =====================================================
+       MORE RESOURCES
+  ====================================================== -->
+
+  <div class="neuro-panel" id="more-resources">
+    <h3>More Computational Neuroscience Resources</h3>
+    <div class="resource-grid">
+
+      <a class="resource-card"
+         href="https://compneuroweb.com/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🌐</span>
+        <div>
+          <strong>Computational Neuroscience on the Web</strong>
+          <p>Links to labs, researchers and computational neuroscience resources.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="http://compneuropapers.tumblr.com/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">📚</span>
+        <div>
+          <strong>Interesting Computational Neuroscience Papers</strong>
+          <p>A collection of papers related to computational neuroscience.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="http://compneuro.uwaterloo.ca/research/theoretical-neuroscience/comments-on-theoretical-neuroscience-books.html"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">📖</span>
+        <div>
+          <strong>Comments on Theoretical Neuroscience Books</strong>
+          <p>Notes and recommendations on theoretical neuroscience texts.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="http://www.genesis-sim.org/cnslecs/cnslecs.html"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🎓</span>
+        <div>
+          <strong>Introductory Computational Neuroscience Lectures</strong>
+          <p>Introductory lecture material for computational neuroscience.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://github.com/OpenSourceBrain/OSB_Documentation/blob/master/contents/Help/08_Simulators.md"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🛠️</span>
+        <div>
+          <strong>Open Source Brain Simulator Guide</strong>
+          <p>Overview of simulators used for computational neuroscience models.</p>
+        </div>
+      </a>
+
+      <a class="resource-card"
+         href="https://neuroml.org/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🧩</span>
+        <div>
+          <strong>NeuroML</strong>
+          <p>A model description language for computational neuroscience.</p>
+        </div>
+      </a>
+
     </div>
   </div>
 
