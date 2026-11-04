@@ -446,7 +446,6 @@ redirect_from:
   </div>
   <div class="ab-grid-3">
     <div class="ab-card">
-      <div class="ab-card-icon">🧠</div>
       <h3>Neural Representation</h3>
       <p>
         Understanding the geometry and structure of population activity,
@@ -454,7 +453,6 @@ redirect_from:
       </p>
     </div>
     <div class="ab-card">
-      <div class="ab-card-icon">📐</div>
       <h3>Neural Circuit Modelling</h3>
       <p>
         Studying mathematical models of neurons and circuits using nonlinear
@@ -462,7 +460,6 @@ redirect_from:
       </p>
     </div>
     <div class="ab-card">
-      <div class="ab-card-icon">📊</div>
       <h3>Neural Data Analysis</h3>
       <p>
         Using statistical and computational tools to analyze spike trains,
