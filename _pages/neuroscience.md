@@ -1165,64 +1165,6 @@ author_profile: true
        LABS & RESEARCH GROUPS
   ====================================================== -->
 
-  <div class="neuro-panel" id="labs">
-    <h3>Computational Neuroscience Labs &amp; Research Groups</h3>
-    <div class="resource-grid">
-
-      <a class="resource-card"
-         href="https://groups.oist.jp/ncu/research"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🇯🇵</span>
-        <div>
-          <strong>OIST Neural Computation Unit</strong>
-          <p>Neural computation and computational neuroscience research.</p>
-        </div>
-      </a>
-
-      <a class="resource-card"
-         href="https://www.ncbs.res.in/faculty/bhalla-research"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🇮🇳</span>
-        <div>
-          <strong>Bhalla Lab, NCBS</strong>
-          <p>Computational and experimental approaches to neural signaling and circuits.</p>
-        </div>
-      </a>
-
-      <a class="resource-card"
-         href="https://www.gatsby.ucl.ac.uk/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🇬🇧</span>
-        <div>
-          <strong>Gatsby Computational Neuroscience Unit</strong>
-          <p>Theoretical neuroscience, machine learning and neural computation.</p>
-        </div>
-      </a>
-
-      <a class="resource-card"
-         href="https://sccn.ucsd.edu/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🌊</span>
-        <div>
-          <strong>Swartz Center for Computational Neuroscience</strong>
-          <p>Computational methods for neural and electrophysiological data.</p>
-        </div>
-      </a>
-
-      <a class="resource-card"
-         href="https://compneuroweb.com/labs.html"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🗺️</span>
-        <div>
-          <strong>Computational Neuroscience Labs Directory</strong>
-          <p>A broader directory of computational neuroscience labs, centers and researchers.</p>
-        </div>
-      </a>
-
-    </div>
-  </div>
-
-
   <!-- =====================================================
        COMMUNITY
   ====================================================== -->
