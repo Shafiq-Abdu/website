@@ -370,7 +370,7 @@ redirect_from:
       <span class="ab-tag">Neural Representation</span>
       <span class="ab-tag">Neural Dynamics</span>
       <span class="ab-tag">Bayesian Inference</span>
-      span class="ab-tag">Neural Data Analysis</span>
+      <span class="ab-tag">Neural Data Analysis</span>
       <span class="ab-tag">Machine Learning</span>
       <span class="ab-tag">Artificial Intelligence</span>
     </div>
