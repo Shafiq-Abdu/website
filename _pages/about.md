@@ -670,7 +670,9 @@ redirect_from:
       <li style="list-style: none; margin: 0.5rem 0 0.8rem -1.2rem;">
         <strong style="color: #1e90ff;">PhD</strong>
       </li>
-
+       <li>
+        <b>2026:</b> Probabilistic Inference in Neuroscience ,Workshop at NITMB , Chicago (Nov 2-4)
+      </li>
       <li>
         <b>2026:</b> Summer School on Stochastic Dynamics and Persistence in Biology,
         Texas A&M (Jun 21–27)
