@@ -1056,7 +1056,43 @@ author_profile: true
           <strong>DANDI Archive</strong>
           <p>Neurophysiology data archive.</p>
         </div>
-   </a>
+     </a>
+      <a class="resource-card"
+         href="https://modeldb.science/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🧮</span>
+        <div>
+          <strong>ModelDB</strong>
+          <p>Database of computational neuroscience models.</p>
+        </div>
+      </a>
+      <a class="resource-card"
+         href="https://opensourcebrain.org/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🧠</span>
+        <div>
+          <strong>Open Source Brain</strong>
+          <p>Open models, projects, tutorials and computational neuroscience resources.</p>
+        </div>
+      </a>
+      <a class="resource-card"
+         href="https://neuromorpho.org/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🌳</span>
+        <div>
+          <strong>NeuroMorpho.Org</strong>
+          <p>Digitally reconstructed neuronal morphologies.</p>
+        </div>
+      </a>
+      <a class="resource-card"
+         href="https://www.ebi.ac.uk/biomodels/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="resource-icon">🧬</span>
+        <div>
+          <strong>BioModels</strong>
+          <p>Repository of computational models of biological systems.</p>
+        </div>
+      </a>
       <a class="resource-card"
          href="https://www.humanconnectome.org/"
          target="_blank" rel="noopener noreferrer">
@@ -1207,56 +1243,6 @@ author_profile: true
   </div>
 
 
-  <!-- =====================================================
-       DATABASES
-  ====================================================== -->
-
-  <div class="neuro-panel" id="databases">
-    <h3>Models, Neurons &amp; Neuroscience Databases</h3>
-    <div class="resource-grid">
-
-      <a class="resource-card"
-         href="https://modeldb.science/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧮</span>
-        <div>
-          <strong>ModelDB</strong>
-          <p>Database of computational neuroscience models.</p>
-        </div>
-      </a>
-
-      <a class="resource-card"
-         href="https://opensourcebrain.org/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Open Source Brain</strong>
-          <p>Open models, projects, tutorials and computational neuroscience resources.</p>
-        </div>
-      </a>
-
-      <a class="resource-card"
-         href="https://neuromorpho.org/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🌳</span>
-        <div>
-          <strong>NeuroMorpho.Org</strong>
-          <p>Digitally reconstructed neuronal morphologies.</p>
-        </div>
-      </a>
-
-      <a class="resource-card"
-         href="https://www.ebi.ac.uk/biomodels/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧬</span>
-        <div>
-          <strong>BioModels</strong>
-          <p>Repository of computational models of biological systems.</p>
-        </div>
-      </a>
-
-    </div>
-  </div>
 
 
   <!-- =====================================================
