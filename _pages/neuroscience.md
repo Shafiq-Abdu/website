@@ -330,22 +330,6 @@ author_profile: true
     🎧 Media
   </button>
 
-  <button class="neuro-tab" data-tab="papers">
-    📄 Papers
-  </button>
-
-  <button class="neuro-tab" data-tab="databases">
-    🗄 Databases
-  </button>
-
-  <button class="neuro-tab" data-tab="labs">
-    🔬 Labs
-  </button>
-
-  <button class="neuro-tab" data-tab="community">
-    🌐 Community
-  </button>
-
   <button class="neuro-tab" data-tab="more-resources">
     🔗 More
   </button>
@@ -1184,67 +1168,6 @@ author_profile: true
   <!-- =====================================================
        LABS & RESEARCH GROUPS
   ====================================================== -->
-
-  <!-- =====================================================
-       COMMUNITY
-  ====================================================== -->
-
-  <div class="neuro-panel" id="community">
-    <h3>Organizations, Mailing Lists, Blogs &amp; News</h3>
-    <div class="resource-grid">
-
-      <a class="resource-card"
-         href="https://www.cnsorg.org/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🌐</span>
-        <div>
-          <strong>Organization for Computational Neurosciences</strong>
-          <p>OCNS community and Computational Neuroscience Meeting.</p>
-        </div>
-      </a>
-
-      <a class="resource-card"
-         href="https://www.incf.org/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>INCF</strong>
-          <p>International Neuroinformatics Coordinating Facility.</p>
-        </div>
-      </a>
-
-      <a class="resource-card"
-         href="https://groups.google.com/g/cosyne-announce"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">📬</span>
-        <div>
-          <strong>COSYNE Announcements</strong>
-          <p>Community announcements related to computational and systems neuroscience.</p>
-        </div>
-      </a>
-
-      <a class="resource-card"
-         href="https://xcorr.net/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">✍️</span>
-        <div>
-          <strong>xcorr</strong>
-          <p>Writing and discussion on computational neuroscience.</p>
-        </div>
-      </a>
-
-      <a class="resource-card"
-         href="https://neurosciencenews.com/neuroscience-terms/computational-neuroscience/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">📰</span>
-        <div>
-          <strong>Neuroscience News</strong>
-          <p>News and articles related to computational neuroscience.</p>
-        </div>
-      </a>
-
-    </div>
-  </div>
 
 
   <!-- =====================================================
