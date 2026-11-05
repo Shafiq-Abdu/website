@@ -660,18 +660,6 @@ author_profile: true
           <p>Neural circuits, brain computation, learning, behavior, and systems neuroscience.</p>
         </div>
       </a>  
-      <!-- 2. COLUMBIA CENTER FOR THEORETICAL NEUROSCIENCE -->
-      <a class="resource-card"
-         href="https://ctn.zuckermaninstitute.columbia.edu/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Center for Theoretical Neuroscience - Columbia University</strong>
-          <p>Mathematical modeling, neural population dynamics, neural coding, and computational theories of brain function.</p>
-        </div>
-      </a>
-      
-      <!-- 3. GATSBY COMPUTATIONAL NEUROSCIENCE UNIT -->
       <a class="resource-card"
          href="https://www.ucl.ac.uk/life-sciences/gatsby"
          target="_blank" rel="noopener noreferrer">
@@ -680,8 +668,7 @@ author_profile: true
           <strong>Gatsby Computational Neuroscience Unit - UCL</strong>
           <p>Theoretical neuroscience, probabilistic inference, neural computation, machine learning, and mathematical models of learning.</p>
         </div>
-      </a>
-      
+      </a>  
       <!-- 4. KAVLI INSTITUTE - UC SANTA BARBARA -->
       <a class="resource-card"
          href="https://www.kitp.ucsb.edu/"
@@ -692,7 +679,6 @@ author_profile: true
           <p>Statistical physics, nonlinear dynamics, biophysics, mathematical modeling, and interdisciplinary theoretical research.</p>
         </div>
       </a>
-      
       <!-- 5. LABORATORY FOR MATHEMATICAL NEUROSCIENCE -->
       <a class="resource-card"
          href="https://bsi-ni.brain.riken.jp/dbtools"
@@ -703,8 +689,6 @@ author_profile: true
           <p>Mathematical neuroscience, information geometry, neural network theory, and statistical models of brain computation.</p>
         </div>
       </a>
-      
-      <!-- 6. MOVEMENT CONTROL LABORATORY -->
       <a class="resource-card"
          href="https://roboti.us/lab/"
          target="_blank" rel="noopener noreferrer">
@@ -714,18 +698,6 @@ author_profile: true
           <p>Computational motor control, optimal control theory, movement dynamics, reinforcement learning, and robotics. Founded at UC San Diego by Emo Todorov.</p>
         </div>
       </a>
-      
-      <!-- 7. NEUROPHYSICS LABORATORY - HEBREW UNIVERSITY -->
-      <a class="resource-card"
-         href="https://elsc.huji.ac.il/people-directory/faculty-members/haim-sompolinsky/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Neurophysics Laboratory - Hebrew University of Jerusalem</strong>
-          <p>Theoretical neuroscience, statistical mechanics of neural networks, neural representations, learning, and brain computation. Associated with Haim Sompolinsky.</p>
-        </div>
-      </a>
-      
       <!-- 8. REDWOOD CENTER - UC BERKELEY -->
       <a class="resource-card"
          href="https://redwood.berkeley.edu/"
@@ -736,8 +708,6 @@ author_profile: true
           <p>Neural coding, sensory representations, information theory, neural computation, and statistical modeling.</p>
         </div>
       </a>
-      
-      <!-- 9. SWARTZ CENTER - UC SAN DIEGO -->
       <a class="resource-card"
          href="https://sccn.ucsd.edu/"
          target="_blank" rel="noopener noreferrer">
@@ -747,8 +717,6 @@ author_profile: true
           <p>EEG signal processing, independent component analysis, brain dynamics, neural computation, and computational neuroimaging.</p>
         </div>
       </a>
-      
-      <!-- 10. INSTITUTE FOR NEURAL COMPUTATION - UCSD -->
       <a class="resource-card"
          href="https://inc.ucsd.edu/"
          target="_blank" rel="noopener noreferrer">
@@ -758,8 +726,6 @@ author_profile: true
           <p>Interdisciplinary research in computational neuroscience, neural circuits, mathematics, artificial intelligence, and brain computation.</p>
         </div>
       </a>
-      
-      <!-- 11. FLATIRON INSTITUTE -->
       <a class="resource-card"
          href="https://www.simonsfoundation.org/flatiron/computational-neuroscience/"
          target="_blank" rel="noopener noreferrer">
@@ -769,8 +735,6 @@ author_profile: true
           <p>Neural population dynamics, neural representations, mathematical modeling, machine learning, and quantitative neuroscience.</p>
         </div>
       </a>
-      
-      <!-- 12. SEUNG LAB - PRINCETON -->
       <a class="resource-card"
          href="https://seunglab.org/"
          target="_blank" rel="noopener noreferrer">
@@ -779,41 +743,7 @@ author_profile: true
           <strong>Seung Lab - Princeton University</strong>
           <p>Connectomics, neural circuit reconstruction, artificial intelligence, and computational approaches to understanding neural networks.</p>
         </div>
-      </a>
-      
-      <!-- 13. RIKEN CENTER FOR BRAIN SCIENCE -->
-      <a class="resource-card"
-         href="https://cbs.riken.jp/en/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>RIKEN Center for Brain Science - Japan</strong>
-          <p>Systems neuroscience, neural circuits, computational modeling, brain dynamics, and mathematical neuroscience.</p>
-        </div>
-      </a>
-      
-      <!-- 14. ELSC - HEBREW UNIVERSITY -->
-      <a class="resource-card"
-         href="https://elsc.huji.ac.il/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Edmond and Lily Safra Center for Brain Sciences - Hebrew University</strong>
-          <p>Neural circuits, mathematical neuroscience, brain computation, learning, memory, and cognition.</p>
-        </div>
-      </a>
-      
-      <!-- 15. ELSC NEURO-THEORY HUB -->
-      <a class="resource-card"
-         href="https://elsc.huji.ac.il/elsc-neuro-theory-hub/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>ELSC Neuro-Theory Hub - Hebrew University</strong>
-          <p>Neural network dynamics, statistical physics, mathematical neuroscience, machine learning, and theoretical brain science.</p>
-        </div>
-      </a>
-      
+      </a>  
       <!-- 16. FIETE LAB - MIT -->
       <a class="resource-card"
          href="https://fietelab.mit.edu/"
@@ -823,56 +753,7 @@ author_profile: true
           <strong>Fiete Lab - MIT</strong>
           <p>Neural representations, attractor networks, neural dynamics, population coding, and computational principles of learning.</p>
         </div>
-      </a>
-      
-      <!-- 17. HHMI JANELIA -->
-      <a class="resource-card"
-         href="https://www.janelia.org/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>HHMI Janelia Research Campus</strong>
-          <p>Neural circuits, systems neuroscience, connectomics, computational modeling, and experimental neuroscience.</p>
-        </div>
-      </a>
-      
-      <!-- 18. LOEWENSTEIN LAB -->
-      <a class="resource-card"
-         href="https://loewenstein.huji.ac.il/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Loewenstein Lab - Hebrew University</strong>
-          <p>Computational neuroscience, learning, neural representations, decision-making, and theoretical models of cognition.</p>
-        </div>
-      </a>
-      
-      <!-- 19. UCLA NEUROPHYSICS -->
-      <a class="resource-card"
-         href="https://mayank.pa.ucla.edu/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Neurophysics Laboratory - UCLA</strong>
-          <p>Hippocampal neural coding, spatial navigation, memory, neural dynamics, and computational neurophysics.</p>
-        </div>
-      </a>
-      
-      <!-- 20. RIKEN THEORETICAL NEUROSCIENCE -->
-      <a class="resource-card"
-         href="https://www.riken.jp/en/research/labs/cbs/integr_theor_neurosci/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Laboratory for Integrated Theoretical Neuroscience - RIKEN</strong>
-          <p>Mathematical models of neural computation, adaptive behavior, learning, decision-making, and theoretical neuroscience.</p>
-        </div>
-      </a>
-      
-      <!-- ========================================== -->
-      <!-- SEPARATE RESOURCE: LABORATORY DIRECTORY   -->
-      <!-- ========================================== -->
-      
+      </a>      
       <a class="resource-card"
          href="https://compneuroweb.com/labs.html"
          target="_blank" rel="noopener noreferrer">
