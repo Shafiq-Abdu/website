@@ -590,192 +590,178 @@ author_profile: true
 
 </div>
 
-  <!-- =====================================================
-       INSTITUTES
-  ====================================================== -->
+  
+<!-- =====================================================
+     INSTITUTES
+====================================================== -->
 
-  <div class="neuro-panel" id="institutes">
-    <h3>Leading Institutes</h3>
-    <div class="resource-grid">
-      <a class="resource-card"
-         href="https://mcgovern.mit.edu/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🏛</span>
-        <div>
-          <strong>MIT McGovern Institute</strong>
-          <p>Brain and cognitive sciences research.</p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://pni.princeton.edu/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🏛</span>
-        <div>
-          <strong>Princeton Neuroscience Institute</strong>
-          <p>Neuroscience and computational research.</p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://www.ucl.ac.uk/life-sciences/gatsby"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Gatsby Computational Neuroscience Unit</strong>
-          <p>UCL theoretical and computational neuroscience.</p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://alleninstitute.org/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🔬</span>
-        <div>
-          <strong>Allen Institute</strong>
-          <p>Large-scale neuroscience research and open datasets.</p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://www.janelia.org/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🔬</span>
-        <div>
-          <strong>Janelia Research Campus</strong>
-          <p>HHMI research campus.</p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://ctn.zuckermaninstitute.columbia.edu/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Columbia Center for Theoretical Neuroscience</strong>
-          <p>Theoretical and computational approaches to neuroscience.</p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://cbs.fas.harvard.edu/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Center for Brain Science - Harvard University</strong>
-          <p>Neural circuits, brain computation, learning, behavior, and systems neuroscience.</p>
-        </div>
-      </a>  
-      <a class="resource-card"
-         href="https://www.ucl.ac.uk/life-sciences/gatsby"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Gatsby Computational Neuroscience Unit - UCL</strong>
-          <p>Theoretical neuroscience, probabilistic inference, neural computation, machine learning, and mathematical models of learning.</p>
-        </div>
-      </a>  
-      <!-- 4. KAVLI INSTITUTE - UC SANTA BARBARA -->
-      <a class="resource-card"
-         href="https://www.kitp.ucsb.edu/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Kavli Institute for Theoretical Physics - UC Santa Barbara</strong>
-          <p>Statistical physics, nonlinear dynamics, biophysics, mathematical modeling, and interdisciplinary theoretical research.</p>
-        </div>
-      </a>
-      <!-- 5. LABORATORY FOR MATHEMATICAL NEUROSCIENCE -->
-      <a class="resource-card"
-         href="https://bsi-ni.brain.riken.jp/dbtools"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Laboratory for Mathematical Neuroscience - RIKEN (Historical)</strong>
-          <p>Mathematical neuroscience, information geometry, neural network theory, and statistical models of brain computation.</p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://roboti.us/lab/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Movement Control Laboratory - UC San Diego (Historical)</strong>
-          <p>Computational motor control, optimal control theory, movement dynamics, reinforcement learning, and robotics. Founded at UC San Diego by Emo Todorov.</p>
-        </div>
-      </a>
-      <!-- 8. REDWOOD CENTER - UC BERKELEY -->
-      <a class="resource-card"
-         href="https://redwood.berkeley.edu/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Redwood Center for Theoretical Neuroscience - UC Berkeley</strong>
-          <p>Neural coding, sensory representations, information theory, neural computation, and statistical modeling.</p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://sccn.ucsd.edu/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Swartz Center for Computational Neuroscience - UC San Diego</strong>
-          <p>EEG signal processing, independent component analysis, brain dynamics, neural computation, and computational neuroimaging.</p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://inc.ucsd.edu/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Institute for Neural Computation - UC San Diego</strong>
-          <p>Interdisciplinary research in computational neuroscience, neural circuits, mathematics, artificial intelligence, and brain computation.</p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://www.simonsfoundation.org/flatiron/computational-neuroscience/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Flatiron Institute - Center for Computational Neuroscience</strong>
-          <p>Neural population dynamics, neural representations, mathematical modeling, machine learning, and quantitative neuroscience.</p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://seunglab.org/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Seung Lab - Princeton University</strong>
-          <p>Connectomics, neural circuit reconstruction, artificial intelligence, and computational approaches to understanding neural networks.</p>
-        </div>
-      </a>  
-      <!-- 16. FIETE LAB - MIT -->
-      <a class="resource-card"
-         href="https://fietelab.mit.edu/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🧠</span>
-        <div>
-          <strong>Fiete Lab - MIT</strong>
-          <p>Neural representations, attractor networks, neural dynamics, population coding, and computational principles of learning.</p>
-        </div>
-      </a>      
-      <a class="resource-card"
-         href="https://compneuroweb.com/labs.html"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🌐</span>
-        <div>
-          <strong>Computational Neuroscience on the Web - Laboratory Directory</strong>
-          <p>A worldwide directory of computational and theoretical neuroscience laboratories, research groups, and academic institutions.</p>
-        </div>
-      </a>
-        <a class="resource-card"
-         href="https://www.nitmb.org/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">∑</span>
-        <div>
-          <strong>NITMB</strong>
-          <p>
-            National Institute for Theory and Mathematics in Biology.
-          </p>
-        </div>
-      </a>
-    </div>
+<div class="neuro-panel" id="institutes">
+  <h3>Leading Institutes</h3>
+
+  <div class="resource-grid">
+
+    <a class="resource-card"
+       href="https://mcgovern.mit.edu/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🏛️</span>
+      <div>
+        <strong>MIT McGovern Institute</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://pni.princeton.edu/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🎓</span>
+      <div>
+        <strong>Princeton Neuroscience Institute</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://www.ucl.ac.uk/life-sciences/gatsby"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🧠</span>
+      <div>
+        <strong>Gatsby Computational Neuroscience Unit - UCL</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://alleninstitute.org/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🔬</span>
+      <div>
+        <strong>Allen Institute</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://www.janelia.org/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🧬</span>
+      <div>
+        <strong>Janelia Research Campus</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://ctn.zuckermaninstitute.columbia.edu/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">📐</span>
+      <div>
+        <strong>Columbia Center for Theoretical Neuroscience</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://cbs.fas.harvard.edu/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">💡</span>
+      <div>
+        <strong>Center for Brain Science - Harvard University</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://www.kitp.ucsb.edu/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">⚛️</span>
+      <div>
+        <strong>Kavli Institute for Theoretical Physics - UC Santa Barbara</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://bsi-ni.brain.riken.jp/dbtools"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">📊</span>
+      <div>
+        <strong>Laboratory for Mathematical Neuroscience - RIKEN (Historical)</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://roboti.us/lab/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🦾</span>
+      <div>
+        <strong>Movement Control Laboratory - UC San Diego (Historical)</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://redwood.berkeley.edu/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🌲</span>
+      <div>
+        <strong>Redwood Center for Theoretical Neuroscience - UC Berkeley</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://sccn.ucsd.edu/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">〰️</span>
+      <div>
+        <strong>Swartz Center for Computational Neuroscience - UC San Diego</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://inc.ucsd.edu/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🔗</span>
+      <div>
+        <strong>Institute for Neural Computation - UC San Diego</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://www.simonsfoundation.org/flatiron/computational-neuroscience/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🧮</span>
+      <div>
+        <strong>Flatiron Institute - Center for Computational Neuroscience</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://seunglab.org/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🕸️</span>
+      <div>
+        <strong>Seung Lab - Princeton University</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://fietelab.mit.edu/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🧭</span>
+      <div>
+        <strong>Fiete Lab - MIT</strong>
+      </div>
+    </a>
+
+    <a class="resource-card"
+       href="https://compneuroweb.com/labs.html"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🌐</span>
+      <div>
+        <strong>Computational Neuroscience on the Web - Laboratory Directory</strong>
+      </div>
+    </a>
+    <a class="resource-card"
+       href="https://www.nitmb.org/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🔢</span>
+      <div>
+        <strong>NITMB - National Institute for Theory and Mathematics in Biology</strong>
+      </div>
+    </a>
   </div>
+</div>
 
 
 
