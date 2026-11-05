@@ -285,10 +285,6 @@ author_profile: true
   <div class="resource-heading">
     <p class="resource-eyebrow">LEARNING & RESEARCH</p>
     <h2>🧠 Computational Neuroscience Resource Hub</h2>
-    <p>
-      Courses, textbooks, institutes, conferences, tools and other
-      resources I use while studying computational neuroscience.
-    </p>
   </div>
 
 
