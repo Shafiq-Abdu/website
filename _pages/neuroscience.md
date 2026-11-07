@@ -1030,6 +1030,42 @@ author_profile: true
     linear-gradient(145deg, #050a13, #080d1c 60%, #03050b);
 }
 
+
+/* =========================================
+   COMPUTATIONAL NEUROSCIENCE HERO VIDEO
+========================================= */
+
+.compneuro-hero .neuron-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.compneuro-video {
+  display: block;
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  object-fit: contain;
+  border: none;
+  background: transparent;
+  pointer-events: none;
+}
+
+/* Mobile responsiveness */
+
+@media (max-width: 768px) {
+  .compneuro-video {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+}
+
+
+  
 .compneuro-text {
   z-index: 2;
 }
@@ -1426,3 +1462,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
+
+
+
