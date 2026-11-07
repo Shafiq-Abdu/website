@@ -47,47 +47,6 @@ author_profile: true
 </section>
 
 
-<section class="research-section">
-
-  <h2>Current Research Direction</h2>
-
-  <p>
-    I am interested in understanding how neural population activity
-    represents information and how mathematical structure emerges from
-    neural data.
-  </p>
-
-  <div class="research-grid">
-
-    <div class="research-card">
-      <h3>Neural Representation</h3>
-      <p>
-        Studying geometry and structure in population-level neural activity.
-      </p>
-    </div>
-
-    <div class="research-card">
-      <h3>Neural Circuits</h3>
-      <p>
-        Modeling interactions between neurons using dynamical systems
-        and stochastic processes.
-      </p>
-    </div>
-
-    <div class="research-card">
-      <h3>Computational Models</h3>
-      <p>
-        Building mathematical and computational models to connect theory,
-        neural data, and behavior.
-      </p>
-    </div>
-
-  </div>
-
-</section>
-
-
-
 <!-- =========================================================
      COMPUTATIONAL NEUROSCIENCE RESOURCE HUB
 ========================================================= -->
