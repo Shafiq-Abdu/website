@@ -1,3 +1,4 @@
+
 ---
 layout: splash
 title: "CompNeuro"
@@ -19,224 +20,31 @@ author_profile: true
     </div>
   </div>
 
-<div class="neuron-container">
+  <!-- =================================== -->
+  <!-- COMPUTATIONAL NEUROSCIENCE VIDEO -->
+  <!-- =================================== -->
 
-  <svg
-    class="neuron-svg brain-svg"
-    viewBox="0 0 800 500"
-    xmlns="http://www.w3.org/2000/svg"
-  >
+  <div class="neuron-container">
 
-    <defs>
-      <filter id="brainGlow">
-        <feGaussianBlur stdDeviation="4" result="blur"/>
-        <feMerge>
-          <feMergeNode in="blur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
+    <video
+      class="compneuro-video"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="auto"
+      aria-label="Computational neuroscience visualization"
+    >
+      <source
+        src="{{ '/images/cns.mp4' | relative_url }}"
+        type="video/mp4"
+      >
+      Your browser does not support HTML5 video.
+    </video>
 
-      <filter id="brainGlowStrong">
-        <feGaussianBlur stdDeviation="7" result="blur"/>
-        <feMerge>
-          <feMergeNode in="blur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-    </defs>
+  </div>
 
-
-    <!-- =================================== -->
-    <!-- SIDE VIEW BRAIN OUTLINE -->
-    <!-- =================================== -->
-
-    <path
-      class="side-brain-outline"
-      d="
-        M190 265
-
-        C160 235 170 195 205 175
-
-        C200 135 240 105 285 112
-
-        C310 75 365 63 405 88
-
-        C445 61 505 72 530 108
-
-        C575 103 612 132 615 172
-
-        C650 186 662 223 648 251
-
-        C667 282 650 318 620 331
-
-        C613 368 575 385 540 375
-
-        C515 407 475 410 446 389
-
-        C425 416 385 420 360 398
-
-        C330 415 290 398 282 366
-
-        C247 368 220 346 218 317
-
-        C190 308 174 285 190 265
-      "
-    />
-
-
-    <!-- LOWER TEMPORAL / BRAINSTEM SHAPE -->
-
-    <path
-      class="side-brain-outline secondary-outline"
-      d="
-        M360 398
-        C375 420 390 437 408 450
-        C425 460 444 454 447 438
-        C450 420 445 404 446 389
-      "
-    />
-
-
-    <!-- =================================== -->
-    <!-- INTERNAL CORTICAL CONNECTIONS -->
-    <!-- =================================== -->
-
-    <g class="brain-connections">
-
-      <!-- frontal -->
-      <path d="M225 205 C265 185 300 185 330 205"/>
-      <path d="M225 205 C245 235 260 252 290 270"/>
-      <path d="M290 270 C310 235 320 220 330 205"/>
-
-      <!-- upper frontal/parietal -->
-      <path d="M285 135 C320 155 350 175 380 205"/>
-      <path d="M330 205 C350 180 365 165 395 150"/>
-      <path d="M395 150 C430 140 470 150 500 175"/>
-
-      <!-- parietal -->
-      <path d="M380 205 C420 200 455 205 490 225"/>
-      <path d="M500 175 C510 200 505 215 490 225"/>
-      <path d="M490 225 C525 230 555 250 575 275"/>
-
-      <!-- central -->
-      <path d="M330 205 C350 235 365 255 390 280"/>
-      <path d="M390 280 C425 255 455 240 490 225"/>
-
-      <!-- temporal -->
-      <path d="M290 270 C320 295 350 305 390 305"/>
-      <path d="M390 305 C420 300 450 300 480 315"/>
-      <path d="M480 315 C515 320 545 310 575 275"/>
-
-      <!-- lower / posterior -->
-      <path d="M390 305 C385 335 390 360 415 382"/>
-      <path d="M415 382 C445 365 465 345 480 315"/>
-      <path d="M480 315 C500 340 515 355 540 365"/>
-
-      <!-- long-range connections -->
-      <path d="M225 205 C310 150 405 125 500 175"/>
-      <path d="M290 270 C360 240 430 240 490 225"/>
-      <path d="M330 205 C380 260 430 295 480 315"/>
-      <path d="M290 270 C330 335 370 365 415 382"/>
-
-    </g>
-
-
-    <!-- =================================== -->
-    <!-- NEURAL NODES -->
-    <!-- =================================== -->
-
-    <g class="brain-nodes">
-
-      <circle cx="225" cy="205" r="5"/>
-      <circle cx="285" cy="135" r="5"/>
-
-      <circle cx="330" cy="205" r="7"/>
-      <circle cx="290" cy="270" r="6"/>
-
-      <circle cx="395" cy="150" r="6"/>
-      <circle cx="380" cy="205" r="5"/>
-
-      <circle cx="500" cy="175" r="6"/>
-      <circle cx="490" cy="225" r="7"/>
-
-      <circle cx="390" cy="280" r="8"/>
-
-      <circle cx="390" cy="305" r="6"/>
-      <circle cx="480" cy="315" r="7"/>
-
-      <circle cx="575" cy="275" r="5"/>
-
-      <circle cx="415" cy="382" r="6"/>
-      <circle cx="540" cy="365" r="5"/>
-
-    </g>
-
-
-    <!-- =================================== -->
-    <!-- MOVING ELECTRICAL SIGNALS -->
-    <!-- =================================== -->
-
-    <circle class="brain-signal" r="5">
-      <animateMotion
-        dur="5.5s"
-        repeatCount="indefinite"
-        path="
-          M225 205
-          C265 185 300 185 330 205
-          C350 235 365 255 390 280
-          C425 255 455 240 490 225
-        "
-      />
-    </circle>
-
-
-    <circle class="brain-signal" r="4">
-      <animateMotion
-        dur="6.3s"
-        begin="1.4s"
-        repeatCount="indefinite"
-        path="
-          M285 135
-          C320 155 350 175 380 205
-          C420 200 455 205 490 225
-          C525 230 555 250 575 275
-        "
-      />
-    </circle>
-
-
-    <circle class="brain-signal" r="4">
-      <animateMotion
-        dur="7s"
-        begin="2.8s"
-        repeatCount="indefinite"
-        path="
-          M290 270
-          C320 295 350 305 390 305
-          C420 300 450 300 480 315
-          C500 340 515 355 540 365
-        "
-      />
-    </circle>
-
-
-    <circle class="brain-signal" r="4">
-      <animateMotion
-        dur="6.7s"
-        begin="3.6s"
-        repeatCount="indefinite"
-        path="
-          M500 175
-          C430 140 350 150 290 270
-        "
-      />
-    </circle>
-
-  </svg>
-
-</div>
 </section>
-
 
 
 <section class="research-section">
@@ -250,12 +58,14 @@ author_profile: true
   </p>
 
   <div class="research-grid">
+
     <div class="research-card">
       <h3>Neural Representation</h3>
       <p>
         Studying geometry and structure in population-level neural activity.
       </p>
     </div>
+
     <div class="research-card">
       <h3>Neural Circuits</h3>
       <p>
@@ -263,6 +73,7 @@ author_profile: true
         and stochastic processes.
       </p>
     </div>
+
     <div class="research-card">
       <h3>Computational Models</h3>
       <p>
@@ -274,6 +85,7 @@ author_profile: true
   </div>
 
 </section>
+
 
 
 <!-- =========================================================
