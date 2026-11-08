@@ -15,14 +15,8 @@ author_profile: true
   </header>
 
   <nav class="archive-filters" aria-label="Filter photographs and videos">
+    <button class="archive-filter" type="button" data-filter="conferences" aria-pressed="false">Conferences / Workshops</button>
     <button class="archive-filter is-active" type="button" data-filter="all" aria-pressed="true">All</button>
-    <button class="archive-filter" type="button" data-filter="conferences" aria-pressed="false">Conferences</button>
-    <button class="archive-filter" type="button" data-filter="workshops" aria-pressed="false">Workshops</button>
-    <button class="archive-filter" type="button" data-filter="research" aria-pressed="false">Research</button>
-    <button class="archive-filter" type="button" data-filter="teaching" aria-pressed="false">Teaching</button>
-    <button class="archive-filter" type="button" data-filter="masters" aria-pressed="false">Master’s</button>
-    <button class="archive-filter" type="button" data-filter="moments" aria-pressed="false">Moments</button>
-     <button class="archive-filter" type="button" data-filter="undergraduate" aria-pressed="false">Early years</button>
   </nav>
 
   <div class="archive-gallery" id="archive-gallery">
@@ -32,16 +26,10 @@ author_profile: true
         <span class="archive-overlay"><strong>Portrait</strong><small>Personal memories</small></span>
       </button>
     </figure>
-    <figure class="archive-item" data-category="undergraduate" data-title="School memories" data-meta="School years" data-kind="image">
-      <button class="archive-photo" type="button" aria-label="Open School memories">
-        <img src="{{ '/images/archives/schooltopper.jpeg' | relative_url }}" alt="School memories" loading="lazy" decoding="async">
-        <span class="archive-overlay"><strong>School memories</strong><small>School years</small></span>
-      </button>
-    </figure>
-    <figure class="archive-item" data-category="undergraduate" data-title="Undergraduate gold medal" data-meta="Undergraduate memories" data-kind="image">
-      <button class="archive-photo" type="button" aria-label="Open Undergraduate gold medal">
-        <img src="{{ '/images/archives/ug_goldmedalist.jpg' | relative_url }}" alt="Undergraduate gold medal" loading="lazy" decoding="async">
-        <span class="archive-overlay"><strong>Undergraduate gold medal</strong><small>Undergraduate memories</small></span>
+    <figure class="archive-item" data-category="masters" data-title="IITM" data-meta="Master’s memories" data-kind="image">
+      <button class="archive-photo" type="button" aria-label="Open IITM">
+        <img src="{{ '/images/archives/iitm.jpeg' | relative_url }}" alt="IITM" loading="lazy" decoding="async">
+        <span class="archive-overlay"><strong>IITM</strong><small>Master’s memories</small></span>
       </button>
     </figure>
     <figure class="archive-item" data-category="teaching" data-title="Teaching school students" data-meta="Teaching" data-kind="image">
@@ -111,11 +99,6 @@ author_profile: true
         <span class="archive-overlay"><strong>Room memories II</strong><small>Master’s memories</small></span>
       </button>
     </figure>
-    <figure class="archive-item" data-category="masters" data-title="IITM" data-meta="Master’s memories" data-kind="image">
-      <button class="archive-photo" type="button" aria-label="Open IITM">
-        <img src="{{ '/images/archives/iitm.jpeg' | relative_url }}" alt="IITM" loading="lazy" decoding="async">
-        <span class="archive-overlay"><strong>IITM</strong><small>Master’s memories</small></span>
-      </button>
     </figure>
     <figure class="archive-item" data-category="research" data-title="Presentation" data-meta="Academic presentations" data-kind="image">
       <button class="archive-photo" type="button" aria-label="Open Presentation">
@@ -167,6 +150,17 @@ author_profile: true
         <span class="archive-overlay"><strong>MTTS memories</strong><small>Mathematics workshop</small></span>
       </button>
     </figure>
+    <figure class="archive-item" data-category="undergraduate" data-title="School memories" data-meta="School years" data-kind="image">
+      <button class="archive-photo" type="button" aria-label="Open School memories">
+        <img src="{{ '/images/archives/schooltopper.jpeg' | relative_url }}" alt="School memories" loading="lazy" decoding="async">
+        <span class="archive-overlay"><strong>School memories</strong><small>School years</small></span>
+      </button>
+    </figure>
+    <figure class="archive-item" data-category="undergraduate" data-title="Undergraduate gold medal" data-meta="Undergraduate memories" data-kind="image">
+      <button class="archive-photo" type="button" aria-label="Open Undergraduate gold medal">
+        <img src="{{ '/images/archives/ug_goldmedalist.jpg' | relative_url }}" alt="Undergraduate gold medal" loading="lazy" decoding="async">
+        <span class="archive-overlay"><strong>Undergraduate gold medal</strong><small>Undergraduate memories</small></span>
+      </button>
     <figure class="archive-item" data-category="conferences" data-title="NITMB workshop" data-meta="Chicago · 2026" data-kind="image">
       <button class="archive-photo" type="button" aria-label="Open NITMB workshop">
         <img src="{{ '/images/archives/nitmb.jpg' | relative_url }}" alt="NITMB workshop" loading="lazy" decoding="async">
