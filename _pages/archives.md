@@ -16,13 +16,13 @@ author_profile: true
 
   <nav class="archive-filters" aria-label="Filter photographs and videos">
     <button class="archive-filter is-active" type="button" data-filter="all" aria-pressed="true">All</button>
-    <button class="archive-filter" type="button" data-filter="undergraduate" aria-pressed="false">Early years</button>
-    <button class="archive-filter" type="button" data-filter="masters" aria-pressed="false">Master’s</button>
     <button class="archive-filter" type="button" data-filter="conferences" aria-pressed="false">Conferences</button>
     <button class="archive-filter" type="button" data-filter="workshops" aria-pressed="false">Workshops</button>
     <button class="archive-filter" type="button" data-filter="research" aria-pressed="false">Research</button>
     <button class="archive-filter" type="button" data-filter="teaching" aria-pressed="false">Teaching</button>
+    <button class="archive-filter" type="button" data-filter="masters" aria-pressed="false">Master’s</button>
     <button class="archive-filter" type="button" data-filter="moments" aria-pressed="false">Moments</button>
+     <button class="archive-filter" type="button" data-filter="undergraduate" aria-pressed="false">Early years</button>
   </nav>
 
   <div class="archive-gallery" id="archive-gallery">
@@ -52,13 +52,13 @@ author_profile: true
     </figure>
     <figure class="archive-item" data-category="undergraduate" data-title="Study room" data-meta="Undergraduate memories" data-kind="image">
       <button class="archive-photo" type="button" aria-label="Open Study room">
-        <img src="{{ '/images/archives/ugstudyroom.jpg' | relative_url }}" alt="Study room" loading="lazy" decoding="async">
+        <img src="{{ '/images/archives/ugstudyroom.jpeg' | relative_url }}" alt="Study room" loading="lazy" decoding="async">
         <span class="archive-overlay"><strong>Study room</strong><small>Undergraduate memories</small></span>
       </button>
     </figure>
     <figure class="archive-item" data-category="research" data-title="Eigenvalues presentation" data-meta="Academic presentations" data-kind="image">
       <button class="archive-photo" type="button" aria-label="Open Eigenvalues presentation">
-        <img src="{{ '/images/archives/eigenvaluespresentation.jpg' | relative_url }}" alt="Eigenvalues presentation" loading="lazy" decoding="async">
+        <img src="{{ '/images/archives/eigenvaluespresentation.jpeg' | relative_url }}" alt="Eigenvalues presentation" loading="lazy" decoding="async">
         <span class="archive-overlay"><strong>Eigenvalues presentation</strong><small>Academic presentations</small></span>
       </button>
     </figure>
@@ -89,7 +89,7 @@ author_profile: true
     </figure>
     <figure class="archive-item" data-category="masters" data-title="Drawing club at IITM" data-meta="Master’s memories" data-kind="image">
       <button class="archive-photo" type="button" aria-label="Open Drawing club at IITM">
-        <img src="{{ '/images/archives/drawingclubiitm.jpg' | relative_url }}" alt="Drawing club at IITM" loading="lazy" decoding="async">
+        <img src="{{ '/images/archives/drawingclubiitm.jpeg' | relative_url }}" alt="Drawing club at IITM" loading="lazy" decoding="async">
         <span class="archive-overlay"><strong>Drawing club at IITM</strong><small>Master’s memories</small></span>
       </button>
     </figure>
@@ -107,13 +107,13 @@ author_profile: true
     </figure>
     <figure class="archive-item" data-category="masters" data-title="Room memories II" data-meta="Master’s memories" data-kind="image">
       <button class="archive-photo" type="button" aria-label="Open Room memories II">
-        <img src="{{ '/images/archives/room.jpg' | relative_url }}" alt="Room memories II" loading="lazy" decoding="async">
+        <img src="{{ '/images/archives/room.jpeg' | relative_url }}" alt="Room memories II" loading="lazy" decoding="async">
         <span class="archive-overlay"><strong>Room memories II</strong><small>Master’s memories</small></span>
       </button>
     </figure>
     <figure class="archive-item" data-category="masters" data-title="IITM" data-meta="Master’s memories" data-kind="image">
       <button class="archive-photo" type="button" aria-label="Open IITM">
-        <img src="{{ '/images/archives/iitm.jpg' | relative_url }}" alt="IITM" loading="lazy" decoding="async">
+        <img src="{{ '/images/archives/iitm.jpeg' | relative_url }}" alt="IITM" loading="lazy" decoding="async">
         <span class="archive-overlay"><strong>IITM</strong><small>Master’s memories</small></span>
       </button>
     </figure>
@@ -163,7 +163,7 @@ author_profile: true
     </figure>
     <figure class="archive-item" data-category="workshops" data-title="MTTS memories" data-meta="Mathematics workshop" data-kind="image">
       <button class="archive-photo" type="button" aria-label="Open MTTS memories">
-        <img src="{{ '/images/archives/kumersan_mtts.jpg' | relative_url }}" alt="MTTS memories" loading="lazy" decoding="async">
+        <img src="{{ '/images/archives/kumersan_mtts.jpeg' | relative_url }}" alt="MTTS memories" loading="lazy" decoding="async">
         <span class="archive-overlay"><strong>MTTS memories</strong><small>Mathematics workshop</small></span>
       </button>
     </figure>
