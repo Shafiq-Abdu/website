@@ -15,10 +15,6 @@ author_profile: true
 
   <nav class="archive-filters" aria-label="Filter photographs">
     <button type="button" class="archive-filter is-active" data-filter="all" aria-pressed="true">All photographs</button>
-    <button type="button" class="archive-filter" data-filter="conferences" aria-pressed="false">Conferences</button>
-    <button type="button" class="archive-filter" data-filter="workshops" aria-pressed="false">Workshops</button>
-    <button type="button" class="archive-filter" data-filter="research" aria-pressed="false">Research life</button>
-    <button type="button" class="archive-filter" data-filter="moments" aria-pressed="false">Moments</button>
   </nav>
 
   <!-- Replace these sample paths with files in your GitHub /images/archives/ folder.
@@ -26,7 +22,7 @@ author_profile: true
   <div class="archive-gallery" id="archive-gallery">
     <figure class="archive-item" data-category="conferences" data-title="Conference conversations" data-meta="Conference · 2026">
       <button class="archive-photo" type="button" aria-label="View Conference conversations">
-        <img src="{{ '/images/archives/conference-01.jpg' | relative_url }}" alt="Conference gathering" loading="lazy" decoding="async">
+        <img src="{{ '/images/archives/nitmb.jpg' | relative_url }}" alt="Conference gathering" loading="lazy" decoding="async">
         <span class="archive-overlay"><strong>Conference conversations</strong><small>Conference · 2026</small></span>
       </button>
     </figure>
