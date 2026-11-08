@@ -9,9 +9,8 @@ author_profile: true
 
 <div class="archive-studio" id="archive-studio">
   <header class="archive-intro">
-    <div class="archive-kicker">AB / VISUAL JOURNAL <span>2025 — PRESENT</span></div>
-    <h1>The Archives<span class="archive-period">.</span></h1>
-    <p>A visual collection of places, people, and moments along my research journey.</p>
+    <div class="archive-kicker">/<span>2023 — PRESENT</span></div>
+    <h1>Visual Journal<span class="archive-period">.</span></h1>
   </header>
 
   <nav class="archive-filters" aria-label="Filter photographs">
