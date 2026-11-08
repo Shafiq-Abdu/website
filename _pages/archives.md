@@ -26,34 +26,10 @@ author_profile: true
 
   <!-- CATEGORY FILTERS -->
   <nav class="archive-filters" aria-label="Filter photographs and videos">
-
+   <button class="archive-filter" type="button"
+      data-filter="conferences" aria-pressed="false">Conferences / Workshops</button>
     <button class="archive-filter is-active" type="button"
       data-filter="all" aria-pressed="true">All</button>
-
-    <button class="archive-filter" type="button"
-      data-filter="school" aria-pressed="false">School</button>
-
-    <button class="archive-filter" type="button"
-      data-filter="undergraduate" aria-pressed="false">Undergraduate</button>
-
-    <button class="archive-filter" type="button"
-      data-filter="masters" aria-pressed="false">Master's</button>
-
-    <button class="archive-filter" type="button"
-      data-filter="research" aria-pressed="false">Research</button>
-
-    <button class="archive-filter" type="button"
-      data-filter="teaching" aria-pressed="false">Teaching</button>
-
-    <button class="archive-filter" type="button"
-      data-filter="conferences" aria-pressed="false">Conferences</button>
-
-    <button class="archive-filter" type="button"
-      data-filter="workshops" aria-pressed="false">Workshops</button>
-
-    <button class="archive-filter" type="button"
-      data-filter="moments" aria-pressed="false">Moments</button>
-
   </nav>
 
   <!-- PHOTO AND VIDEO GALLERY -->
