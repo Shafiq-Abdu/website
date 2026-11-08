@@ -62,7 +62,11 @@ main:
 
   - title: "CompNeuro"
     url: /neuroscience/
+    
+  - title: "Archives"
+    url: /archives/
 
+ 
   - title: "Contact"
     url: /contact/
  
