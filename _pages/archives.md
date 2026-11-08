@@ -128,7 +128,7 @@ author_profile: true
     </figure>
     <figure class="archive-item" data-category="masters" data-title="IITM soccer" data-meta="Master’s memories" data-kind="image">
       <button class="archive-photo" type="button" aria-label="Open IITM soccer">
-        <img src="{{ '/images/archives/iitmsoccer.jpg' | relative_url }}" alt="IITM soccer" loading="lazy" decoding="async">
+        <img src="{{ '/images/archives/iitmsoccer.jpeg' | relative_url }}" alt="IITM soccer" loading="lazy" decoding="async">
         <span class="archive-overlay"><strong>IITM soccer</strong><small>Master’s memories</small></span>
       </button>
     </figure>
