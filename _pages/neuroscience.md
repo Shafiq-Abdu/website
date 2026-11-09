@@ -73,7 +73,7 @@ author_profile: true
 
     <button class="neuro-tab active" type="button"
             role="tab" id="tab-dynamics"
-            aria-selected="true"
+            aria-selected="true" tabindex="0"
             aria-controls="panel-dynamics"
             data-neuro-tab="dynamics">
       <span class="neuro-tab-number">01</span>
@@ -402,7 +402,7 @@ author_profile: true
   margin-bottom: 22px;
 }
 
-.neuro-tab {
+.neuro-framework .neuro-tab {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -413,7 +413,7 @@ author_profile: true
   border: 1px solid var(--global-border-color, #ccc);
   border-radius: 10px;
   background: var(--global-bg-color, transparent);
-  color: var(--global-text-color, inherit);
+  color: var(--global-text-color, #e4e8f0);
   font-family: inherit;
   font-size: 0.88rem;
   font-weight: 600;
@@ -425,23 +425,23 @@ author_profile: true
               transform 0.2s ease;
 }
 
-.neuro-tab:hover {
+.neuro-framework .neuro-tab:hover {
   border-color: #4d8fb9;
   transform: translateY(-2px);
 }
 
-.neuro-tab.active {
+.neuro-framework .neuro-tab.active {
   border-color: #4d8fb9;
   background: rgba(77, 143, 185, 0.10);
 }
 
-.neuro-tab:focus-visible,
+.neuro-framework .neuro-tab:focus-visible,
 .neuro-topic summary:focus-visible {
   outline: 2px solid #4d8fb9;
   outline-offset: 3px;
 }
 
-.neuro-tab-number {
+.neuro-framework .neuro-tab-number {
   font-size: 0.75rem;
   font-weight: 700;
   color: #4d8fb9;
@@ -549,7 +549,7 @@ author_profile: true
 }
 
 @media (max-width: 480px) {
-  .neuro-tab {
+  .neuro-framework .neuro-tab {
     min-height: 105px;
     padding: 12px;
     font-size: 0.78rem;
@@ -566,7 +566,7 @@ author_profile: true
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .neuro-tab {
+  .neuro-framework .neuro-tab {
     transition: none;
   }
 }
@@ -665,7 +665,7 @@ author_profile: true
 <section class="neuro-resources">
 
   <div class="resource-heading">
-    <p class="resource-eyebrow">LEARNING & RESEARCH</p>
+    <p class="resource-eyebrow">LEARNING &amp; RESEARCH</p>
     <h2>🧠 Computational Neuroscience Resource Hub</h2>
   </div>
 
@@ -674,41 +674,41 @@ author_profile: true
      TAB BUTTONS
 ====================================================== -->
 
-<div class="neuro-tabs" role="tablist">
+<div class="neuro-tabs" role="tablist" aria-label="Research resources">
 
-  <button class="neuro-tab active" data-tab="learning">
+  <button type="button" class="resource-tab active" data-tab="learning" role="tab" id="resource-tab-learning" aria-controls="learning" aria-selected="true">
     📘 Learning
   </button>
 
-  <button class="neuro-tab" data-tab="books">
+  <button type="button" class="resource-tab" data-tab="books" role="tab" id="resource-tab-books" aria-controls="books" aria-selected="false" tabindex="-1">
     📝 Books
   </button>
 
-  <button class="neuro-tab" data-tab="institutes">
+  <button type="button" class="resource-tab" data-tab="institutes" role="tab" id="resource-tab-institutes" aria-controls="institutes" aria-selected="false" tabindex="-1">
     🏛 Institutes
   </button>
 
-  <button class="neuro-tab" data-tab="conferences">
+  <button type="button" class="resource-tab" data-tab="conferences" role="tab" id="resource-tab-conferences" aria-controls="conferences" aria-selected="false" tabindex="-1">
     🎤 Conferences
   </button>
 
-  <button class="neuro-tab" data-tab="people">
+  <button type="button" class="resource-tab" data-tab="people" role="tab" id="resource-tab-people" aria-controls="people" aria-selected="false" tabindex="-1">
     🧠 People
   </button>
 
-  <button class="neuro-tab" data-tab="tools">
+  <button type="button" class="resource-tab" data-tab="tools" role="tab" id="resource-tab-tools" aria-controls="tools" aria-selected="false" tabindex="-1">
     💻 Tools
   </button>
 
-  <button class="neuro-tab" data-tab="datasets">
+  <button type="button" class="resource-tab" data-tab="datasets" role="tab" id="resource-tab-datasets" aria-controls="datasets" aria-selected="false" tabindex="-1">
     📊 Data
   </button>
 
-  <button class="neuro-tab" data-tab="media">
+  <button type="button" class="resource-tab" data-tab="media" role="tab" id="resource-tab-media" aria-controls="media" aria-selected="false" tabindex="-1">
     🎧 Media
   </button>
 
-  <button class="neuro-tab" data-tab="more-resources">
+  <button type="button" class="resource-tab" data-tab="more-resources" role="tab" id="resource-tab-more-resources" aria-controls="more-resources" aria-selected="false" tabindex="-1">
     🔗 More
   </button>
 
@@ -719,7 +719,7 @@ author_profile: true
      LEARNING
 ====================================================== -->
 
-<div class="neuro-panel active" id="learning">
+<div class="resource-panel active" id="learning" role="tabpanel" aria-labelledby="resource-tab-learning">
 
   <h3>Courses &amp; Learning Resources</h3>
 
@@ -820,7 +820,7 @@ author_profile: true
      BOOKS
 ====================================================== -->
 
-<div class="neuro-panel" id="books">
+<div class="resource-panel" id="books" role="tabpanel" aria-labelledby="resource-tab-books" hidden>
 
   <h3>Textbooks</h3>
 
@@ -957,7 +957,7 @@ author_profile: true
      INSTITUTES
 ====================================================== -->
 
-<div class="neuro-panel" id="institutes">
+<div class="resource-panel" id="institutes" role="tabpanel" aria-labelledby="resource-tab-institutes" hidden>
   <h3>Leading Institutes</h3>
 
   <div class="resource-grid">
@@ -1131,7 +1131,7 @@ author_profile: true
        CONFERENCES
   ====================================================== -->
 
-  <div class="neuro-panel" id="conferences">
+  <div class="resource-panel" id="conferences" role="tabpanel" aria-labelledby="resource-tab-conferences" hidden>
     <h3>Major Conferences</h3>
     <div class="resource-grid">
      <a class="resource-card"
@@ -1196,7 +1196,7 @@ author_profile: true
   <!-- =====================================================
        PEOPLE
   ====================================================== -->
-<div class="neuro-panel" id="people">
+<div class="resource-panel" id="people" role="tabpanel" aria-labelledby="resource-tab-people" hidden>
   <h3>Computational Neuroscientists</h3>
   <div class="people-list">
     <div class="person">
@@ -1323,7 +1323,7 @@ author_profile: true
        TOOLS
   ====================================================== -->
 
-  <div class="neuro-panel" id="tools">
+  <div class="resource-panel" id="tools" role="tabpanel" aria-labelledby="resource-tab-tools" hidden>
     <h3>Simulation & Computational Tools</h3>
     <div class="resource-grid">
       <a class="resource-card"
@@ -1389,7 +1389,7 @@ author_profile: true
        DATA
   ====================================================== -->
 
-  <div class="neuro-panel" id="datasets">
+  <div class="resource-panel" id="datasets" role="tabpanel" aria-labelledby="resource-tab-datasets" hidden>
     <h3>Public Brain Datasets</h3>
     <div class="resource-grid">
       <a class="resource-card"
@@ -1473,8 +1473,8 @@ author_profile: true
        MEDIA
   ====================================================== -->
 
-  <div class="neuro-panel" id="media">
-    <h3>Articles, Podcasts & YouTube</h3>
+  <div class="resource-panel" id="media" role="tabpanel" aria-labelledby="resource-tab-media" hidden>
+    <h3>Articles, Podcasts &amp; YouTube</h3>
     <div class="resource-grid">
       <a class="resource-card"
          href="https://www.youtube.com/artemkirsanov"
@@ -1517,7 +1517,7 @@ author_profile: true
          target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🎧</span>
         <div>
-          <strong>Brain -Documentaries</strong>
+          <strong>Brain Documentaries</strong>
           <p>Videos on neuroscience, brain and cognition.</p>
         </div>
       </a>
@@ -1526,8 +1526,8 @@ author_profile: true
          target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🧠</span>
         <div>
-          <strong>Frontiers for young minds</strong>
-          <p>Neuroscience & Psychology articles for kids .</p>
+          <strong>Frontiers for Young Minds</strong>
+          <p>Neuroscience and psychology articles for younger readers.</p>
         </div>
       </a>
         <a class="resource-card"
@@ -1536,7 +1536,7 @@ author_profile: true
         <span class="resource-icon">🔬</span>
         <div>
           <strong>Brain Prize</strong>
-          <p>Playlist to get motivation and discipline</p>
+          <p>Videos and lectures featuring neuroscience research and discoveries.</p>
         </div>
       </a>
     </div>
@@ -1552,7 +1552,7 @@ author_profile: true
        MORE RESOURCES
   ====================================================== -->
 
-  <div class="neuro-panel" id="more-resources">
+  <div class="resource-panel" id="more-resources" role="tabpanel" aria-labelledby="resource-tab-more-resources" hidden>
     <h3>More Computational Neuroscience Resources</h3>
     <div class="resource-grid">
 
@@ -1863,7 +1863,7 @@ author_profile: true
   scrollbar-width: thin;
 }
 
-.neuro-tab {
+.neuro-resources .resource-tab {
   flex: 0 0 auto;
   padding: 10px 16px;
   color: #aeb9d5;
@@ -1875,28 +1875,28 @@ author_profile: true
   transition: all 0.25s ease;
 }
 
-.neuro-tab:hover {
+.neuro-resources .resource-tab:hover {
   color: white;
   border-color: #6685ff;
 }
 
-.neuro-tab.active {
+.neuro-resources .resource-tab.active {
   color: white;
   border-color: #526fff;
   background: #526fff;
   box-shadow: 0 0 18px rgba(82, 111, 255, 0.35);
 }
 
-.neuro-panel {
+.neuro-resources .resource-panel {
   display: none;
   animation: resourceFade 0.3s ease;
 }
 
-.neuro-panel.active {
+.neuro-resources .resource-panel.active:not([hidden]) {
   display: block;
 }
 
-.neuro-panel h3 {
+.neuro-resources .resource-panel h3 {
   margin-bottom: 22px;
   color: white;
 }
@@ -2055,25 +2055,61 @@ author_profile: true
   .brain-signal {
     display: none;
   }
+  .neuro-resources .resource-panel { animation: none; }
 }
+
+.neuro-resources .resource-panel[hidden] { display: none !important; }
+.neuro-resources .resource-tab:focus-visible { outline: 2px solid #9ab0ff; outline-offset: 3px; }
+.neuro-resources .resource-tab { font-family: inherit; }
+.neuro-resources .resource-panel .person span,
+.neuro-resources .resource-panel .person small { display: block; margin-top: 6px; color: #aeb9d5; line-height: 1.5; }
 </style>
 
 <script>
-document.addEventListener("DOMContentLoaded", () => {
-  const tabs = document.querySelectorAll(".neuro-tab");
-  const panels = document.querySelectorAll(".neuro-panel");
+(function () {
+  function initializeResourceHub() {
+    const hub = document.querySelector('.neuro-resources');
+    if (!hub) return;
 
-  tabs.forEach((tab) => {
-    tab.addEventListener("click", () => {
-      tabs.forEach((item) => item.classList.remove("active"));
-      panels.forEach((panel) => panel.classList.remove("active"));
+    const tabs = Array.from(hub.querySelectorAll('.resource-tab'));
+    const panels = Array.from(hub.querySelectorAll('.resource-panel'));
 
-      tab.classList.add("active");
-      document.getElementById(tab.dataset.tab)?.classList.add("active");
+    function activate(tab, focus) {
+      const target = tab.dataset.tab;
+      tabs.forEach(function (item) {
+        const selected = item === tab;
+        item.classList.toggle('active', selected);
+        item.setAttribute('aria-selected', String(selected));
+        item.tabIndex = selected ? 0 : -1;
+      });
+      panels.forEach(function (panel) {
+        const selected = panel.id === target;
+        panel.classList.toggle('active', selected);
+        panel.hidden = !selected;
+      });
+      if (focus) tab.focus();
+    }
+
+    tabs.forEach(function (tab, index) {
+      tab.addEventListener('click', function () { activate(tab, false); });
+      tab.addEventListener('keydown', function (event) {
+        let next;
+        if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+        else if (event.key === 'ArrowLeft') next = (index - 1 + tabs.length) % tabs.length;
+        else if (event.key === 'Home') next = 0;
+        else if (event.key === 'End') next = tabs.length - 1;
+        else return;
+        event.preventDefault();
+        activate(tabs[next], true);
+      });
     });
-  });
-});
+    if (tabs.length) activate(tabs[0], false);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeResourceHub);
+  } else {
+    initializeResourceHub();
+  }
+})();
 </script>
-
-
-
