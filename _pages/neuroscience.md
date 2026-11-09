@@ -76,8 +76,7 @@ author_profile: true
             aria-selected="true" tabindex="0"
             aria-controls="panel-dynamics"
             data-neuro-tab="dynamics">
-      <span class="neuro-tab-number">01</span>
-      <span>Neural Dynamics &amp;<br>Circuit Modeling</span>
+      <span>Neural Dynamics &amp; Circuit Modeling</span>
     </button>
 
     <button class="neuro-tab" type="button"
@@ -85,8 +84,7 @@ author_profile: true
             aria-selected="false" tabindex="-1"
             aria-controls="panel-geometry"
             data-neuro-tab="geometry">
-      <span class="neuro-tab-number">02</span>
-      <span>Neural Representations<br>&amp; Geometry</span>
+      <span>Neural Representations &amp; Geometry</span>
     </button>
 
     <button class="neuro-tab" type="button"
@@ -94,8 +92,7 @@ author_profile: true
             aria-selected="false" tabindex="-1"
             aria-controls="panel-coding"
             data-neuro-tab="coding">
-      <span class="neuro-tab-number">03</span>
-      <span>Neural Coding &amp;<br>Probabilistic Inference</span>
+      <span>Neural Coding &amp; Probabilistic Inference</span>
     </button>
 
     <button class="neuro-tab" type="button"
@@ -103,8 +100,7 @@ author_profile: true
             aria-selected="false" tabindex="-1"
             aria-controls="panel-methods"
             data-neuro-tab="methods">
-      <span class="neuro-tab-number">04</span>
-      <span>Neural Data Analysis<br>&amp; Machine Learning</span>
+      <span>Neural Data Analysis &amp; Machine Learning</span>
     </button>
 
   </div>
@@ -120,44 +116,44 @@ author_profile: true
     </p>
 
     <details class="neuro-topic">
-      <summary>1.1 Dynamical Systems</summary>
+      <summary>Dynamical Systems</summary>
       <p>ODEs, SDEs, linear and nonlinear dynamics, fixed points,
       stability, bifurcations, oscillations, chaos.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>1.2 Attractor Networks</summary>
+      <summary>Attractor Networks</summary>
       <p>Point, continuous, ring, torus and bump attractors;
       Hopfield networks.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>1.3 Recurrent Neural Networks</summary>
+      <summary>Recurrent Neural Networks</summary>
       <p>Vanilla RNNs, continuous-time RNNs, gated RNNs
       (GRU/LSTM), low-rank, task-trained and spiking RNNs.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>1.4 Biophysical Neuron Models</summary>
+      <summary>Biophysical Neuron Models</summary>
       <p>Hodgkin–Huxley, integrate-and-fire, Izhikevich,
       conductance-based and compartmental models.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>1.5 Neural Circuit and Population Models</summary>
+      <summary>Neural Circuit and Population Models</summary>
       <p>Wilson–Cowan models, excitation-inhibition networks,
       balanced networks, mean-field theory, neural mass
       and neural field models.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>1.6 Learning and Plasticity</summary>
+      <summary>Learning and Plasticity</summary>
       <p>Hebbian learning, STDP, homeostatic plasticity,
       reward-modulated learning and adaptation.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>1.7 Advanced Dynamical Methods</summary>
+      <summary>Advanced Dynamical Methods</summary>
       <p>Koopman operators, dynamic mode decomposition,
       system identification, control theory,
       observability and controllability.</p>
@@ -176,47 +172,47 @@ author_profile: true
     </p>
 
     <details class="neuro-topic">
-      <summary>2.1 Neural Population Representations</summary>
+      <summary>Neural Population Representations</summary>
       <p>Population state spaces, mixed selectivity,
       distributed representations and neural trajectories.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>2.2 Representational Dimensionality</summary>
+      <summary>Representational Dimensionality</summary>
       <p>Intrinsic and effective dimensionality,
       latent representations, dimensionality expansion
       and compression.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>2.3 Neural Manifold Geometry</summary>
+      <summary>Neural Manifold Geometry</summary>
       <p>Neural manifolds, differential and Riemannian geometry,
       curvature, geodesics and manifold alignment.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>2.4 Topology of Neural Activity</summary>
+      <summary>Topology of Neural Activity</summary>
       <p>Homology, cohomology, Betti numbers,
       persistent homology and cohomology,
       ring and torus topology.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>2.5 Representational Similarity</summary>
+      <summary>Representational Similarity</summary>
       <p>RSA, representational distances,
       CCA-based alignment, cross-condition generalization
       and invariance.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>2.6 Geometry of Neural Computation</summary>
+      <summary>Geometry of Neural Computation</summary>
       <p>Coding and null spaces, orthogonality,
       rotational dynamics, manifold capacity,
       untangling and linear separability.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>2.7 High-Dimensional Geometry</summary>
+      <summary>High-Dimensional Geometry</summary>
       <p>Random projections, random matrix theory,
       concentration of measure and geometric
       classification theory.</p>
@@ -235,37 +231,37 @@ author_profile: true
     </p>
 
     <details class="neuro-topic">
-      <summary>3.1 Neural Coding Principles</summary>
+      <summary>Neural Coding Principles</summary>
       <p>Rate, temporal, population, sparse and distributed
       coding; tuning curves and receptive fields.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>3.2 Neural Encoding Models</summary>
+      <summary>Neural Encoding Models</summary>
       <p>LN/LNP models, GLMs, Poisson and point-process
       encoding, spike-history models.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>3.3 Neural Decoding</summary>
+      <summary>Neural Decoding</summary>
       <p>Bayesian, maximum-likelihood, MAP,
       linear and population decoding.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>3.4 Information Theory</summary>
+      <summary>Information Theory</summary>
       <p>Entropy, mutual information, Fisher information,
       Cramér–Rao bounds and efficient coding.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>3.5 Bayesian and Probabilistic Inference</summary>
+      <summary>Bayesian and Probabilistic Inference</summary>
       <p>Bayesian estimation, graphical models,
       variational inference, sampling and predictive coding.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>3.6 Probabilistic Neural Representations</summary>
+      <summary>Probabilistic Neural Representations</summary>
       <p>Probabilistic population codes (PPCs),
       distributed distributional codes (DDCs),
       sampling-based codes, uncertainty and
@@ -273,14 +269,14 @@ author_profile: true
     </details>
 
     <details class="neuro-topic">
-      <summary>3.7 Sequential Inference and Decision-Making</summary>
+      <summary>Sequential Inference and Decision-Making</summary>
       <p>HMMs, Kalman and particle filters,
       drift-diffusion models, evidence accumulation
       and POMDPs.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>3.8 Normative Neural Computation</summary>
+      <summary>Normative Neural Computation</summary>
       <p>Efficient coding, information bottleneck,
       optimal estimation, Bayesian decision theory
       and active inference.</p>
@@ -299,51 +295,51 @@ author_profile: true
     </p>
 
     <details class="neuro-topic">
-      <summary>4.1 Probability and Statistical Methods</summary>
+      <summary>Probability and Statistical Methods</summary>
       <p>Probability distributions, MLE/MAP,
       hypothesis testing, bootstrap, permutation tests
       and cross-validation.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>4.2 Spike-Train and Neural Data Analysis</summary>
+      <summary>Spike-Train and Neural Data Analysis</summary>
       <p>PSTHs, firing rates, spike-count statistics,
       Fano factor, correlations and spike sorting.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>4.3 Dimensionality Reduction</summary>
+      <summary>Dimensionality Reduction</summary>
       <p>PCA/SVD, FA/GPFA, ICA, LDA, CCA,
       dPCA, jPCA, t-SNE and UMAP.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>4.4 Statistical Machine Learning</summary>
+      <summary>Statistical Machine Learning</summary>
       <p>Regression, GLMs, SVMs, random forests,
       Gaussian processes, clustering and classifiers.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>4.5 Deep Learning Methods</summary>
+      <summary>Deep Learning Methods</summary>
       <p>Feedforward networks, CNNs, RNNs, transformers,
       autoencoders and generative models.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>4.6 Neural Signal Processing</summary>
+      <summary>Neural Signal Processing</summary>
       <p>Fourier and wavelet analysis, filtering,
       spectral analysis, EEG, LFP, MEG
       and calcium imaging.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>4.7 Time-Series and Latent-State Modeling</summary>
+      <summary>Time-Series and Latent-State Modeling</summary>
       <p>State-space models, HMMs, Kalman filters,
       latent dynamics and system identification.</p>
     </details>
 
     <details class="neuro-topic">
-      <summary>4.8 Optimization and Scientific Computing</summary>
+      <summary>Optimization and Scientific Computing</summary>
       <p>Gradient methods, backpropagation,
       regularization, numerical methods,
       Python/MATLAB and reproducibility.</p>
@@ -363,214 +359,106 @@ author_profile: true
 ====================================================== -->
 
 <style>
-
+/* Independent dark-themed learning framework */
 .neuro-framework {
   margin: 3rem 0;
-  width: 100%;
+  padding: clamp(22px, 3.5vw, 48px);
+  border: 1px solid #263241;
+  border-radius: 22px;
+  background: #090f19;
+  color: #eaf0f7;
   font-family: inherit;
+  color-scheme: dark;
 }
-
-.neuro-framework-heading {
-  margin-bottom: 1.8rem;
-}
-
+.neuro-framework-heading { margin-bottom: 24px; }
 .neuro-framework-eyebrow {
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  color: #4d8fb9;
-  margin-bottom: 0.5rem;
+  margin: 0 0 7px; color: #8ea3b8; font-size: .76rem;
+  font-weight: 700; letter-spacing: .14em;
 }
-
 .neuro-framework-heading h2 {
-  font-size: 1.8rem;
-  margin-bottom: 0.6rem;
+  margin: 0 0 10px; color: #f5f8fc; font-size: clamp(1.5rem, 3vw, 2rem);
 }
-
 .neuro-framework-heading > p:last-child {
-  color: var(--global-text-color, #777);
-  font-size: 0.95rem;
-  line-height: 1.7;
+  margin: 0; color: #a5b1c0; font-size: .95rem; line-height: 1.65;
 }
-
-/* FOUR HORIZONTAL TABS */
-
-.neuro-umbrella-tabs {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 10px;
-  margin-bottom: 22px;
+/* Compact horizontal pill tabs, matching the teaching portfolio */
+.neuro-framework .neuro-umbrella-tabs {
+  display: flex; flex-wrap: wrap; gap: 9px;
+  margin: 0 0 26px; padding: 0;
 }
-
 .neuro-framework .neuro-tab {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 12px;
-  min-height: 115px;
-  padding: 17px 14px;
-  border: 1px solid var(--global-border-color, #ccc);
-  border-radius: 10px;
-  background: var(--global-bg-color, transparent);
-  color: var(--global-text-color, #e4e8f0);
-  font-family: inherit;
-  font-size: 0.88rem;
-  font-weight: 600;
-  line-height: 1.45;
-  text-align: left;
-  cursor: pointer;
-  transition: border-color 0.2s ease,
-              background 0.2s ease,
-              transform 0.2s ease;
+  display: inline-flex; flex: 0 1 auto; align-items: center;
+  justify-content: center; width: auto; min-height: 43px;
+  margin: 0; padding: 10px 17px;
+  border: 1px solid #344153; border-radius: 999px;
+  background: #111a27; color: #b7c4d3;
+  font-family: inherit; font-size: .86rem; font-weight: 500; line-height: 1.35; text-align: center;
+  cursor: pointer; box-shadow: none;
+  transition: background .18s ease, border-color .18s ease, color .18s ease;
 }
-
 .neuro-framework .neuro-tab:hover {
-  border-color: #4d8fb9;
-  transform: translateY(-2px);
+  background: #192738; color: #fff; border-color: #278fa3;
+  transform: none;
 }
-
-.neuro-framework .neuro-tab.active {
-  border-color: #4d8fb9;
-  background: rgba(77, 143, 185, 0.10);
+.neuro-framework .neuro-tab.active,
+.neuro-framework .neuro-tab[aria-selected="true"] {
+  background: #118b9e; border-color: #118b9e;
+  color: #fff; box-shadow: none;
 }
-
 .neuro-framework .neuro-tab:focus-visible,
-.neuro-topic summary:focus-visible {
-  outline: 2px solid #4d8fb9;
-  outline-offset: 3px;
+.neuro-framework .neuro-topic summary:focus-visible {
+  outline: 2px solid #4fd4e5; outline-offset: 3px;
 }
-
-.neuro-framework .neuro-tab-number {
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: #4d8fb9;
-  letter-spacing: 0.08em;
-}
-
-/* CONTENT PANEL */
-
+/* Keep the learning panels independent of resource hub panels */
 .neuro-framework .neuro-panel {
-  display: none;
-  padding: 24px;
-  border: 1px solid var(--global-border-color, #ccc);
-  border-radius: 12px;
-  background: var(--global-bg-color, transparent);
+  display: none; padding: clamp(16px, 2.2vw, 28px);
+  border: 1px solid #273443; border-radius: 16px;
+  background: #0d1520; color: #eaf0f7;
 }
-
-.neuro-framework .neuro-panel.active:not([hidden]) {
-  display: block;
-}
-
-.neuro-framework .neuro-panel[hidden] {
-  display: none !important;
-}
-
+.neuro-framework .neuro-panel.active:not([hidden]) { display: block; }
+.neuro-framework .neuro-panel[hidden] { display: none !important; }
 .neuro-framework .neuro-panel h3 {
-  margin: 0 0 10px;
-  font-size: 1.25rem;
+  margin: 0 0 9px; color: #f4f7fb;
+  font-size: clamp(1.08rem, 2vw, 1.35rem);
 }
-
-.neuro-panel-description {
-  margin-bottom: 22px;
-  color: var(--global-text-color, #777);
-  opacity: 0.8;
-  line-height: 1.65;
-  font-size: 0.92rem;
+.neuro-framework .neuro-panel-description {
+  margin: 0 0 22px; color: #aab6c6;
+  opacity: 1; font-size: .92rem; line-height: 1.65;
 }
-
-/* EXPANDABLE SUBSECTIONS */
-
-.neuro-topic {
-  margin-bottom: 9px;
-  border: 1px solid var(--global-border-color, #ddd);
-  border-radius: 8px;
-  overflow: hidden;
+.neuro-framework .neuro-topic {
+  margin: 0 0 9px; overflow: hidden;
+  border: 1px solid #293849; border-radius: 10px;
+  background: #111b28; color: #e8eef7;
 }
-
-.neuro-topic summary {
-  padding: 14px 17px;
-  cursor: pointer;
-  font-size: 0.91rem;
-  font-weight: 600;
-  line-height: 1.5;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+.neuro-framework .neuro-topic summary {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; padding: 14px 17px; list-style: none;
+  cursor: pointer; color: #eaf0f7;
+  font-size: .92rem; font-weight: 600; line-height: 1.5;
 }
-
-.neuro-topic summary::-webkit-details-marker {
-  display: none;
+.neuro-framework .neuro-topic summary::-webkit-details-marker { display: none; }
+.neuro-framework .neuro-topic summary::after {
+  content: "+"; color: #52c7d8; font-size: 1.25rem;
+  font-weight: 400; flex-shrink: 0;
 }
-
-.neuro-topic summary::after {
-  content: "+";
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: #4d8fb9;
-  flex-shrink: 0;
+.neuro-framework .neuro-topic[open] summary::after { content: "−"; }
+.neuro-framework .neuro-topic summary:hover { background: #182637; }
+.neuro-framework .neuro-topic[open] { border-color: #258da2; }
+.neuro-framework .neuro-topic p {
+  margin: 0; padding: 0 17px 16px; color: #b6c3d2;
+  opacity: 1; font-size: .9rem; line-height: 1.7;
 }
-
-.neuro-topic[open] summary::after {
-  content: "−";
+.neuro-framework .neuro-framework-note {
+  margin: 18px 0 0; color: #92a1b3;
+  opacity: 1; font-size: .8rem; font-style: italic;
 }
-
-.neuro-topic summary:hover {
-  background: rgba(77, 143, 185, 0.06);
+@media (max-width: 640px) {
+  .neuro-framework .neuro-umbrella-tabs { gap: 8px; }
+  .neuro-framework .neuro-tab { padding: 9px 13px; font-size: .8rem; }
 }
-
-.neuro-topic[open] {
-  border-color: #4d8fb9;
-}
-
-.neuro-topic p {
-  padding: 0 17px 16px;
-  margin: 0;
-  font-size: 0.89rem;
-  line-height: 1.75;
-  opacity: 0.85;
-}
-
-.neuro-framework-note {
-  margin-top: 18px;
-  font-size: 0.8rem;
-  opacity: 0.65;
-  font-style: italic;
-}
-
-/* MOBILE RESPONSIVENESS */
-
-@media (max-width: 900px) {
-  .neuro-umbrella-tabs {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 480px) {
-  .neuro-framework .neuro-tab {
-    min-height: 105px;
-    padding: 12px;
-    font-size: 0.78rem;
-  }
-
-  .neuro-framework .neuro-panel {
-    padding: 16px;
-  }
-
-  .neuro-topic summary {
-    padding: 12px;
-    font-size: 0.85rem;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .neuro-framework .neuro-tab {
-    transition: none;
-  }
+  .neuro-framework .neuro-tab { transition: none; }
 }
-
 </style>
 
 <!-- =====================================================
