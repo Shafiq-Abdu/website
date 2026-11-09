@@ -46,6 +46,618 @@ author_profile: true
 </section>
 
 
+
+
+
+
+
+<!-- =====================================================
+     COMPUTATIONAL NEUROSCIENCE LEARNING FRAMEWORK
+     Four Umbrellas with Expandable Subsections
+====================================================== -->
+
+<section class="neuro-framework" id="learning-framework">
+
+  <div class="neuro-framework-heading">
+    <p class="neuro-framework-eyebrow">LEARNING FRAMEWORK</p>
+    <h2>Computational Neuroscience</h2>
+    <p>
+      A structured exploration of theoretical and computational
+      neuroscience through four interconnected research areas.
+    </p>
+  </div>
+
+  <!-- FOUR HORIZONTAL UMBRELLA TABS -->
+  <div class="neuro-umbrella-tabs" role="tablist"
+       aria-label="Computational neuroscience areas">
+
+    <button class="neuro-tab active" type="button"
+            role="tab" id="tab-dynamics"
+            aria-selected="true"
+            aria-controls="panel-dynamics"
+            data-neuro-tab="dynamics">
+      <span class="neuro-tab-number">01</span>
+      <span>Neural Dynamics &amp;<br>Circuit Modeling</span>
+    </button>
+
+    <button class="neuro-tab" type="button"
+            role="tab" id="tab-geometry"
+            aria-selected="false" tabindex="-1"
+            aria-controls="panel-geometry"
+            data-neuro-tab="geometry">
+      <span class="neuro-tab-number">02</span>
+      <span>Neural Representations<br>&amp; Geometry</span>
+    </button>
+
+    <button class="neuro-tab" type="button"
+            role="tab" id="tab-coding"
+            aria-selected="false" tabindex="-1"
+            aria-controls="panel-coding"
+            data-neuro-tab="coding">
+      <span class="neuro-tab-number">03</span>
+      <span>Neural Coding &amp;<br>Probabilistic Inference</span>
+    </button>
+
+    <button class="neuro-tab" type="button"
+            role="tab" id="tab-methods"
+            aria-selected="false" tabindex="-1"
+            aria-controls="panel-methods"
+            data-neuro-tab="methods">
+      <span class="neuro-tab-number">04</span>
+      <span>Neural Data Analysis<br>&amp; Machine Learning</span>
+    </button>
+
+  </div>
+
+  <!-- UMBRELLA 1 -->
+  <div class="neuro-panel active" id="panel-dynamics"
+       role="tabpanel" aria-labelledby="tab-dynamics">
+
+    <h3>Neural Dynamics and Circuit Modeling</h3>
+    <p class="neuro-panel-description">
+      How does neural activity evolve over time, and how do
+      neural circuits generate computations?
+    </p>
+
+    <details class="neuro-topic">
+      <summary>1.1 Dynamical Systems</summary>
+      <p>ODEs, SDEs, linear and nonlinear dynamics, fixed points,
+      stability, bifurcations, oscillations, chaos.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>1.2 Attractor Networks</summary>
+      <p>Point, continuous, ring, torus and bump attractors;
+      Hopfield networks.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>1.3 Recurrent Neural Networks</summary>
+      <p>Vanilla RNNs, continuous-time RNNs, gated RNNs
+      (GRU/LSTM), low-rank, task-trained and spiking RNNs.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>1.4 Biophysical Neuron Models</summary>
+      <p>Hodgkin–Huxley, integrate-and-fire, Izhikevich,
+      conductance-based and compartmental models.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>1.5 Neural Circuit and Population Models</summary>
+      <p>Wilson–Cowan models, excitation-inhibition networks,
+      balanced networks, mean-field theory, neural mass
+      and neural field models.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>1.6 Learning and Plasticity</summary>
+      <p>Hebbian learning, STDP, homeostatic plasticity,
+      reward-modulated learning and adaptation.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>1.7 Advanced Dynamical Methods</summary>
+      <p>Koopman operators, dynamic mode decomposition,
+      system identification, control theory,
+      observability and controllability.</p>
+    </details>
+
+  </div>
+
+  <!-- UMBRELLA 2 -->
+  <div class="neuro-panel" id="panel-geometry"
+       role="tabpanel" aria-labelledby="tab-geometry" hidden>
+
+    <h3>Neural Representations and Geometry</h3>
+    <p class="neuro-panel-description">
+      How is information structured and organized in
+      neural population activity?
+    </p>
+
+    <details class="neuro-topic">
+      <summary>2.1 Neural Population Representations</summary>
+      <p>Population state spaces, mixed selectivity,
+      distributed representations and neural trajectories.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>2.2 Representational Dimensionality</summary>
+      <p>Intrinsic and effective dimensionality,
+      latent representations, dimensionality expansion
+      and compression.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>2.3 Neural Manifold Geometry</summary>
+      <p>Neural manifolds, differential and Riemannian geometry,
+      curvature, geodesics and manifold alignment.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>2.4 Topology of Neural Activity</summary>
+      <p>Homology, cohomology, Betti numbers,
+      persistent homology and cohomology,
+      ring and torus topology.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>2.5 Representational Similarity</summary>
+      <p>RSA, representational distances,
+      CCA-based alignment, cross-condition generalization
+      and invariance.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>2.6 Geometry of Neural Computation</summary>
+      <p>Coding and null spaces, orthogonality,
+      rotational dynamics, manifold capacity,
+      untangling and linear separability.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>2.7 High-Dimensional Geometry</summary>
+      <p>Random projections, random matrix theory,
+      concentration of measure and geometric
+      classification theory.</p>
+    </details>
+
+  </div>
+
+  <!-- UMBRELLA 3 -->
+  <div class="neuro-panel" id="panel-coding"
+       role="tabpanel" aria-labelledby="tab-coding" hidden>
+
+    <h3>Neural Coding and Probabilistic Inference</h3>
+    <p class="neuro-panel-description">
+      How do neural systems encode, decode and use
+      information under uncertainty?
+    </p>
+
+    <details class="neuro-topic">
+      <summary>3.1 Neural Coding Principles</summary>
+      <p>Rate, temporal, population, sparse and distributed
+      coding; tuning curves and receptive fields.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>3.2 Neural Encoding Models</summary>
+      <p>LN/LNP models, GLMs, Poisson and point-process
+      encoding, spike-history models.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>3.3 Neural Decoding</summary>
+      <p>Bayesian, maximum-likelihood, MAP,
+      linear and population decoding.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>3.4 Information Theory</summary>
+      <p>Entropy, mutual information, Fisher information,
+      Cramér–Rao bounds and efficient coding.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>3.5 Bayesian and Probabilistic Inference</summary>
+      <p>Bayesian estimation, graphical models,
+      variational inference, sampling and predictive coding.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>3.6 Probabilistic Neural Representations</summary>
+      <p>Probabilistic population codes (PPCs),
+      distributed distributional codes (DDCs),
+      sampling-based codes, uncertainty and
+      posterior representations.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>3.7 Sequential Inference and Decision-Making</summary>
+      <p>HMMs, Kalman and particle filters,
+      drift-diffusion models, evidence accumulation
+      and POMDPs.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>3.8 Normative Neural Computation</summary>
+      <p>Efficient coding, information bottleneck,
+      optimal estimation, Bayesian decision theory
+      and active inference.</p>
+    </details>
+
+  </div>
+
+  <!-- UMBRELLA 4 -->
+  <div class="neuro-panel" id="panel-methods"
+       role="tabpanel" aria-labelledby="tab-methods" hidden>
+
+    <h3>Neural Data Analysis and Machine Learning Methods</h3>
+    <p class="neuro-panel-description">
+      Mathematical, statistical and computational tools
+      for analyzing, modeling and predicting neural activity.
+    </p>
+
+    <details class="neuro-topic">
+      <summary>4.1 Probability and Statistical Methods</summary>
+      <p>Probability distributions, MLE/MAP,
+      hypothesis testing, bootstrap, permutation tests
+      and cross-validation.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>4.2 Spike-Train and Neural Data Analysis</summary>
+      <p>PSTHs, firing rates, spike-count statistics,
+      Fano factor, correlations and spike sorting.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>4.3 Dimensionality Reduction</summary>
+      <p>PCA/SVD, FA/GPFA, ICA, LDA, CCA,
+      dPCA, jPCA, t-SNE and UMAP.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>4.4 Statistical Machine Learning</summary>
+      <p>Regression, GLMs, SVMs, random forests,
+      Gaussian processes, clustering and classifiers.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>4.5 Deep Learning Methods</summary>
+      <p>Feedforward networks, CNNs, RNNs, transformers,
+      autoencoders and generative models.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>4.6 Neural Signal Processing</summary>
+      <p>Fourier and wavelet analysis, filtering,
+      spectral analysis, EEG, LFP, MEG
+      and calcium imaging.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>4.7 Time-Series and Latent-State Modeling</summary>
+      <p>State-space models, HMMs, Kalman filters,
+      latent dynamics and system identification.</p>
+    </details>
+
+    <details class="neuro-topic">
+      <summary>4.8 Optimization and Scientific Computing</summary>
+      <p>Gradient methods, backpropagation,
+      regularization, numerical methods,
+      Python/MATLAB and reproducibility.</p>
+    </details>
+
+  </div>
+
+  <p class="neuro-framework-note">
+    A flexible learning framework for theoretical and
+    computational neuroscience. Topics may overlap across areas.
+  </p>
+
+</section>
+
+<!-- =====================================================
+     STYLES
+====================================================== -->
+
+<style>
+
+.neuro-framework {
+  margin: 3rem 0;
+  width: 100%;
+  font-family: inherit;
+}
+
+.neuro-framework-heading {
+  margin-bottom: 1.8rem;
+}
+
+.neuro-framework-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #4d8fb9;
+  margin-bottom: 0.5rem;
+}
+
+.neuro-framework-heading h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.neuro-framework-heading > p:last-child {
+  color: var(--global-text-color, #777);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* FOUR HORIZONTAL TABS */
+
+.neuro-umbrella-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.neuro-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  min-height: 115px;
+  padding: 17px 14px;
+  border: 1px solid var(--global-border-color, #ccc);
+  border-radius: 10px;
+  background: var(--global-bg-color, transparent);
+  color: var(--global-text-color, inherit);
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.2s ease,
+              background 0.2s ease,
+              transform 0.2s ease;
+}
+
+.neuro-tab:hover {
+  border-color: #4d8fb9;
+  transform: translateY(-2px);
+}
+
+.neuro-tab.active {
+  border-color: #4d8fb9;
+  background: rgba(77, 143, 185, 0.10);
+}
+
+.neuro-tab:focus-visible,
+.neuro-topic summary:focus-visible {
+  outline: 2px solid #4d8fb9;
+  outline-offset: 3px;
+}
+
+.neuro-tab-number {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #4d8fb9;
+  letter-spacing: 0.08em;
+}
+
+/* CONTENT PANEL */
+
+.neuro-framework .neuro-panel {
+  display: none;
+  padding: 24px;
+  border: 1px solid var(--global-border-color, #ccc);
+  border-radius: 12px;
+  background: var(--global-bg-color, transparent);
+}
+
+.neuro-framework .neuro-panel.active:not([hidden]) {
+  display: block;
+}
+
+.neuro-framework .neuro-panel[hidden] {
+  display: none !important;
+}
+
+.neuro-framework .neuro-panel h3 {
+  margin: 0 0 10px;
+  font-size: 1.25rem;
+}
+
+.neuro-panel-description {
+  margin-bottom: 22px;
+  color: var(--global-text-color, #777);
+  opacity: 0.8;
+  line-height: 1.65;
+  font-size: 0.92rem;
+}
+
+/* EXPANDABLE SUBSECTIONS */
+
+.neuro-topic {
+  margin-bottom: 9px;
+  border: 1px solid var(--global-border-color, #ddd);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.neuro-topic summary {
+  padding: 14px 17px;
+  cursor: pointer;
+  font-size: 0.91rem;
+  font-weight: 600;
+  line-height: 1.5;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.neuro-topic summary::-webkit-details-marker {
+  display: none;
+}
+
+.neuro-topic summary::after {
+  content: "+";
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #4d8fb9;
+  flex-shrink: 0;
+}
+
+.neuro-topic[open] summary::after {
+  content: "−";
+}
+
+.neuro-topic summary:hover {
+  background: rgba(77, 143, 185, 0.06);
+}
+
+.neuro-topic[open] {
+  border-color: #4d8fb9;
+}
+
+.neuro-topic p {
+  padding: 0 17px 16px;
+  margin: 0;
+  font-size: 0.89rem;
+  line-height: 1.75;
+  opacity: 0.85;
+}
+
+.neuro-framework-note {
+  margin-top: 18px;
+  font-size: 0.8rem;
+  opacity: 0.65;
+  font-style: italic;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 900px) {
+  .neuro-umbrella-tabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .neuro-tab {
+    min-height: 105px;
+    padding: 12px;
+    font-size: 0.78rem;
+  }
+
+  .neuro-framework .neuro-panel {
+    padding: 16px;
+  }
+
+  .neuro-topic summary {
+    padding: 12px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .neuro-tab {
+    transition: none;
+  }
+}
+
+</style>
+
+<!-- =====================================================
+     TAB FUNCTIONALITY
+====================================================== -->
+
+<script>
+(function () {
+  function initializeNeuroFramework() {
+    const framework = document.getElementById("learning-framework");
+    if (!framework) return;
+
+    const tabs = Array.from(
+      framework.querySelectorAll("[data-neuro-tab]")
+    );
+
+    const panels = Array.from(
+      framework.querySelectorAll('[role="tabpanel"]')
+    );
+
+    function activateTab(tab, moveFocus) {
+      const targetId = "panel-" + tab.dataset.neuroTab;
+
+      tabs.forEach(function (item) {
+        const selected = item === tab;
+        item.classList.toggle("active", selected);
+        item.setAttribute("aria-selected", String(selected));
+        item.tabIndex = selected ? 0 : -1;
+      });
+
+      panels.forEach(function (panel) {
+        const selected = panel.id === targetId;
+        panel.hidden = !selected;
+        panel.classList.toggle("active", selected);
+      });
+
+      if (moveFocus) tab.focus();
+    }
+
+    tabs.forEach(function (tab, index) {
+      tab.addEventListener("click", function () {
+        activateTab(tab, false);
+      });
+
+      tab.addEventListener("keydown", function (event) {
+        let nextIndex;
+
+        if (event.key === "ArrowRight") {
+          nextIndex = (index + 1) % tabs.length;
+        } else if (event.key === "ArrowLeft") {
+          nextIndex = (index - 1 + tabs.length) % tabs.length;
+        } else if (event.key === "Home") {
+          nextIndex = 0;
+        } else if (event.key === "End") {
+          nextIndex = tabs.length - 1;
+        } else {
+          return;
+        }
+
+        event.preventDefault();
+        activateTab(tabs[nextIndex], true);
+      });
+    });
+
+    if (tabs.length) activateTab(tabs[0], false);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener(
+      "DOMContentLoaded",
+      initializeNeuroFramework
+    );
+  } else {
+    initializeNeuroFramework();
+  }
+})();
+</script>
+
+
+
+
+
+
+
+
+
+
 <!-- =========================================================
      COMPUTATIONAL NEUROSCIENCE RESOURCE HUB
 ========================================================= -->
