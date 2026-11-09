@@ -449,6 +449,25 @@ author_profile: true
       </button>
     </figure>
 
+    <!-- 20. INTERNSHIP -->
+    <figure class="archive-item"
+      data-category="research"
+      data-title="Internship"
+      data-meta="Academic Journey"
+      data-kind="image">
+
+      <button class="archive-photo" type="button"
+        aria-label="Open Internship">
+        <img src="{{ '/images/archives/researcher.jpg' | relative_url }}"
+          alt="Internship" loading="lazy" decoding="async">
+
+        <span class="archive-overlay">
+          <strong>Post Prelims</strong>
+          <small>Research Journey</small>
+        </span>
+      </button>
+    </figure>
+
     <!-- 21. MTTS WORKSHOP -->
     <figure class="archive-item"
       data-category="workshops"
