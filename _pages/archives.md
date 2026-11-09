@@ -205,7 +205,7 @@ author_profile: true
           alt="Explaining Concepts" loading="lazy" decoding="async">
 
         <span class="archive-overlay">
-          <strong>Explaining Concepts</strong>
+          <strong>Explaining Catalan numbers </strong>
           <small>Learning and Teaching</small>
         </span>
       </button>
