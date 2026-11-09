@@ -59,12 +59,8 @@ author_profile: true
 <section class="neuro-framework" id="learning-framework">
 
   <div class="neuro-framework-heading">
-    <p class="neuro-framework-eyebrow">LEARNING FRAMEWORK</p>
-    <h2>Computational Neuroscience</h2>
-    <p>
-      A structured exploration of theoretical and computational
-      neuroscience through four interconnected research areas.
-    </p>
+    <p class="neuro-framework-eyebrow">LEARNING</p>
+    <h2>Framework</h2>
   </div>
 
   <!-- FOUR HORIZONTAL UMBRELLA TABS -->
