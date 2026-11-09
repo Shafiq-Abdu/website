@@ -54,6 +54,25 @@ author_profile: true
       </button>
     </figure>
 
+
+    <figure class="archive-item"
+      data-category="moments"
+      data-title="Portrait"
+      data-meta="Personal Memories"
+      data-kind="image">
+
+      <button class="archive-photo" type="button"
+        aria-label="Open Portrait">
+        <img src="{{ '/images/archives/nitmbpic.jpeg' | relative_url }}"
+          alt="Portrait" loading="lazy" decoding="async">
+
+        <span class="archive-overlay">
+          <strong>NITMB</strong>
+          <small>Chicago Memories</small>
+        </span>
+      </button>
+    </figure>
+
     <!-- 02. IITM -->
     <figure class="archive-item"
       data-category="masters"
@@ -449,6 +468,44 @@ author_profile: true
       </button>
     </figure>
 
+    <!-- 21. MTTS WORKSHOP -->
+    <figure class="archive-item"
+      data-category="workshops"
+      data-title="MTTS Memories"
+      data-meta="Mathematics Workshop"
+      data-kind="image">
+
+      <button class="archive-photo" type="button"
+        aria-label="Open MTTS Memories">
+        <img src="{{ '/images/archives/nasa.jpg' | relative_url }}"
+          alt="MTTS Memories" loading="lazy" decoding="async">
+
+        <span class="archive-overlay">
+          <strong>NASA</strong>
+          <small>Houston</small>
+        </span>
+      </button>
+    </figure>
+
+    <!-- 21. MTTS WORKSHOP -->
+    <figure class="archive-item"
+      data-category="workshops"
+      data-title="MTTS Memories"
+      data-meta="Mathematics Workshop"
+      data-kind="image">
+
+      <button class="archive-photo" type="button"
+        aria-label="Open MTTS Memories">
+        <img src="{{ '/images/archives/prelimprep.jpg' | relative_url }}"
+          alt="MTTS Memories" loading="lazy" decoding="async">
+
+        <span class="archive-overlay">
+          <strong>Grad student</strong>
+          <small>Prelim prep</small>
+        </span>
+      </button>
+    </figure>
+
     <!-- 22. SCHOOL MEMORIES -->
     <figure class="archive-item"
       data-category="school"
@@ -487,6 +544,8 @@ author_profile: true
       </button>
     </figure>
 
+    
+
     <!-- 24. NITMB WORKSHOP -->
     <figure class="archive-item"
       data-category="conferences"
@@ -497,6 +556,44 @@ author_profile: true
       <button class="archive-photo" type="button"
         aria-label="Open NITMB Workshop">
         <img src="{{ '/images/archives/nitmb.jpg' | relative_url }}"
+          alt="NITMB Workshop" loading="lazy" decoding="async">
+
+        <span class="archive-overlay">
+          <strong>NITMB Workshop</strong>
+          <small>Chicago · 2026</small>
+        </span>
+      </button>
+    </figure>
+
+    <!-- 24. NITMB WORKSHOP -->
+    <figure class="archive-item"
+      data-category="conferences"
+      data-title="NITMB Workshop"
+      data-meta="Chicago · 2026"
+      data-kind="image">
+
+      <button class="archive-photo" type="button"
+        aria-label="Open NITMB Workshop">
+        <img src="{{ '/images/archives/chicago.jpeg' | relative_url }}"
+          alt="NITMB Workshop" loading="lazy" decoding="async">
+
+        <span class="archive-overlay">
+          <strong>NITMB Workshop</strong>
+          <small>Chicago · 2026</small>
+        </span>
+      </button>
+    </figure>
+
+    <!-- 24. NITMB WORKSHOP -->
+    <figure class="archive-item"
+      data-category="conferences"
+      data-title="NITMB Workshop"
+      data-meta="Chicago · 2026"
+      data-kind="image">
+
+      <button class="archive-photo" type="button"
+        aria-label="Open NITMB Workshop">
+        <img src="{{ '/images/archives/chicago2.png' | relative_url }}"
           alt="NITMB Workshop" loading="lazy" decoding="async">
 
         <span class="archive-overlay">
