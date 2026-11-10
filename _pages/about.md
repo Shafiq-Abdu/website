@@ -447,24 +447,12 @@ redirect_from:
   <div class="ab-grid-3">
     <div class="ab-card">
       <h3>Neural Representation</h3>
-      <p>
-        Understanding the geometry and structure of population activity,
-        including how neural systems represent task variables and abstract quantities.
-      </p>
     </div>
     <div class="ab-card">
       <h3>Neural Circuit Modelling</h3>
-      <p>
-        Studying mathematical models of neurons and circuits using nonlinear
-        dynamics, stability, bifurcation theory, and computational simulation.
-      </p>
     </div>
     <div class="ab-card">
       <h3>Neural Data Analysis</h3>
-      <p>
-        Using statistical and computational tools to analyze spike trains,
-        neural population activity, and low-dimensional structure in high-dimensional data.
-      </p>
     </div>
   </div>
 </section>
