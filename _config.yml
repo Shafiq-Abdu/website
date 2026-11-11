@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "About me"
+title                    : "AB"
 title_separator          : "-"
 name                     : &name "Shafiq Abdul Rahman"
 description              : &description "Masters Student"
-url                      : https://shafiq-abdu.github.io/website/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://shafiq-abdulrahman.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : #"academicpages/academicpages.github.io"
 
@@ -21,14 +21,14 @@ repository               : #"academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "1.jpeg"
+  avatar           : "newphoto.png"    #add 1000.jpg, redbg.jpg,redbgg.png
   name             : "Shafiq Abdul Rahman"
   pronouns         : # example: "she/her"  
-  bio              : "Recent Master Graduate, Computational Mathematics and Data Science lab, Department of Math, IIT Madras"
-  location         : "Chennai,India"
+  bio              : "Grad Student | Teaching Assistant | Office 678, PGH Hall, College of Natural Science and Mathematics, UH "
+  location         : "Houston,Texas, US"
   employer         : #"Chennai,India"
   uri              : # URL
-  email            : "ma22c001@smail.iitm.ac.in" 
+  email            : "arahmans@uh.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

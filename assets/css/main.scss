@@ -39,3 +39,43 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+
+.footer-video-bg {
+  position: relative;
+  overflow: hidden;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.footer-video-bg video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.6;
+  filter: contrast(1.4) brightness(1); /* tweak to taste */
+}
+
+.footer-overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.5); /* light overlay on video */
+}
+
+.footer-overlay a {
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+

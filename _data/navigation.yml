@@ -9,21 +9,68 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
     
-  # - title: "Portfolio"
+  # - title: "Projects"
   #   url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
     
   # - title: "CV"
+  # #   url: /cv/
+
+  # - title: "Portfolio"
+  #   url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/home"
+
+  # - title: "Change View"
+  #   url: "https://shafiq-abdu.github.io/link/"
+    
+  # - title: "Publicatons"
+  #   url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/research/publications"
+
+  - title: "Publications"
+    url: /publications/
+
+  # - title: "Projects"
+  #   url: /portfolio/
+
+  - title: "Project"
+    url: /new-project/
+
+
+
+  # - title: "Projects"
+  #   url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/projects"
+  #   external: true
+
+
+
+  # - title: "Teaching"
+  #   url: "https://sites.google.com/view/shafiqabdulrahmanab/teaching"
+
+  # - title: "CV"
   #   url: /cv/
 
-  - title: "Check official Website"
-    url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/home"
+  # - title: "Teachingsss"
+  #   url: /teaching/    
 
-  - title: "Change View"
-    url: "https://shafiq-abdu.github.io/link/"
+
+  - title: "Teaching"
+    url: /teach/
+
+  - title: "My Files"
+    url: /files/
+
+  - title: "CompNeuro"
+    url: /neuroscience/
     
-    
-  # - title: "Guide"
-  #   url: /markdown/
+  - title: "Archives"
+    url: /archives/
+
+ 
+  - title: "Contact"
+    url: /contact/
+ 
+
+
+  # - title: "Project"
+  #   url: /new-project/

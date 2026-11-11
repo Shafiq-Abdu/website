@@ -1,4 +1,4 @@
-{% include base_path %}
+<!-- {% include base_path %}
 
 {% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
 <div class="page__footer-follow">
@@ -19,4 +19,76 @@
 </div>
 {% endif %}
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. </a>.</div>	
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?w=150&t=n&d=adJmbXNsBqhfFOlHCTo0ZVbeXmCZDrpXEoj3bMrUgvo"></script> -->
+
+<!-- already commented -->
+<!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=adJmbXNsBqhfFOlHCTo0ZVbeXmCZDrpXEoj3bMrUgvo"></script> -->
+
+<!-- <a href="http://livetrafficfeed.com/3d-visitor-maps" id="LTF_3d_maps">Live 3D Globes Visitor</a><script type="text/javascript" src="//cdn.livetrafficfeed.com/static/3d-maps/live.js?o=000080&amp;l=339966&amp;b=008000&amp;c=ff0000&amp;root=0&amp;timezone=Asia%2FKolkata&amp;s=145" async="async"></script> -->
+<!-- new down -->
+
+
+
+{% include base_path %}
+
+<!-- === Footer with video background === -->
+<div class="footer-video-bg">
+  <!-- Background video -->
+  <video autoplay loop muted playsinline id="footer-video">
+    <source src="{{ '/images/f.mp4' | relative_url }}" type="video/mp4">
+  </video>
+
+  <!-- Existing footer content overlaid on video -->
+  <div class="footer-overlay">
+    {% if site.author.github or site.author.bitbucket or site.author.linkedin or site.atom_feed.hide != true %}
+    <div class="page__footer-follow">
+      <ul class="social-icons">
+        {% if site.data.ui-text[site.locale].follow_label %}
+          <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+        {% endif %}
+
+        {% if site.author.github %}
+          <li>
+            <a href="https://github.com/{{ site.author.github }}" target="_blank">
+              <i class="fab fa-github" aria-hidden="true"></i> GitHub
+            </a>
+          </li>
+        {% endif %}
+
+        {% if site.author.bitbucket %}
+          <li>
+            <a href="https://bitbucket.org/{{ site.author.bitbucket }}" target="_blank">
+              <i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket
+            </a>
+          </li>
+        {% endif %}
+
+        {% if site.author.linkedin %}
+          <li>
+            <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank">
+              <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+            </a>
+          </li>
+        {% endif %}
+
+        {% if site.atom_feed.hide != true %}
+          <li>
+            <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}">
+              <i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> 
+              {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+    {% endif %}
+
+    <div class="page__footer-copyright">
+      &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+    </div>
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?w=150&t=n&d=adJmbXNsBqhfFOlHCTo0ZVbeXmCZDrpXEoj3bMrUgvo"></script>
+  </div>
+</div>
+
